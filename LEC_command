@@ -1,0 +1,5 @@
+read library -Both -Replace  -sensitive  -Statetable  -Liberty /home/installs/FOUNDRY/digital/90nm/dig/lib/slow.lib -nooptimize   
+read design /home/cadence/Documents/Project_05/ATM.v -Verilog -Golden   -sensitive         -continuousassignment Bidirectional   -nokeep_unreach   -nosupply 
+read design /home/cadence/Documents/Project_05/ATM_netlist.v -Verilog -Revised   -sensitive -continuousassignment Bidirectional -nokeep_unreach   -nosupply 
+
+

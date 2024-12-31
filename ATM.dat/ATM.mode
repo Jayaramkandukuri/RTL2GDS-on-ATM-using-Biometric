@@ -1,0 +1,139 @@
+if {![namespace exists ::IMEX]} { namespace eval ::IMEX {} }
+set ::IMEX::dataVar [file dirname [file normalize [info script]]]
+set ::IMEX::libVar ${::IMEX::dataVar}/libs
+
+catch { set_analysis_mode -analysisType onChipVariation }
+catch { set_analysis_mode -checkType setup }
+catch { set_analysis_mode -clkSrcPath true }
+catch { set_analysis_mode -clockGatingCheck true }
+catch { set_analysis_mode -clockPropagation sdcControl }
+catch { set_analysis_mode -cppr both }
+catch { set_analysis_mode -enableMultipleDriveNet true }
+catch { set_analysis_mode -log true }
+catch { set_analysis_mode -sequentialConstProp false }
+catch { set_analysis_mode -skew true }
+catch { set_analysis_mode -timeBorrowing true }
+catch { set_analysis_mode -timingSelfLoopsNoSkew false }
+catch { set_analysis_mode -usefulSkew false }
+catch { set_analysis_mode -useOutputPinCap true }
+catch { set_analysis_mode -virtualIPO false }
+catch { set_analysis_mode -warn true }
+catch { setExtractRCMode  -effortLevel signoff -engine postRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3 }
+catch {setNanoRouteMode -quiet -drouteEndIteration 1}
+catch {setNanoRouteMode -quiet -droutePostRouteSpreadWire "1"}
+catch {setNanoRouteMode -quiet -droutePostRouteWidenWireRule "LEFDefaultRouteSpec_gpdk090"}
+catch {setNanoRouteMode -quiet -drouteUseLefPinTaperRule true}
+catch {setNanoRouteMode -quiet -drouteUseMinSpacingForBlockage auto}
+catch {setNanoRouteMode -quiet -extractDesignSignature 83139491}
+catch {setNanoRouteMode -quiet -extractRcModelFile "${::IMEX::libVar}/misc/rc_model.bin"}
+catch {setNanoRouteMode -quiet -extractThirdPartyCompatible false}
+catch {setNanoRouteMode -quiet -grouteExpTdUseTifTimingEngineForImportDesign true}
+catch {setNanoRouteMode -quiet -routeBottomRoutingLayer 1}
+catch {setNanoRouteMode -quiet -routeSiEffort "high"}
+catch {setNanoRouteMode -quiet -routeStrictlyHonorNonDefaultRule "false"}
+catch {setNanoRouteMode -quiet -routeTopRoutingLayer 9}
+catch {setNanoRouteMode -quiet -routeWithSiDriven true}
+catch {setNanoRouteMode -quiet -routeWithTimingDriven true}
+catch {setNanoRouteMode -quiet -timingEngine ""}
+
+catch { set_place_mode -place_design_floorplan_mode false }
+catch { set_place_mode -place_detail_check_route false }
+catch { set_place_mode -place_detail_preserve_routing true }
+catch { set_place_mode -place_detail_remove_affected_routing false }
+catch { set_place_mode -place_detail_swap_eeq_cells false }
+catch { set_place_mode -place_global_clock_gate_aware true }
+catch { set_place_mode -place_global_cong_effort auto }
+catch { set_place_mode -place_global_ignore_scan true }
+catch { set_place_mode -place_global_ignore_spare false }
+catch { set_place_mode -place_global_module_aware_spare false }
+catch { set_place_mode -place_global_place_io_pins true }
+catch { set_place_mode -place_global_reorder_scan true }
+catch { set_place_mode -powerDriven false }
+catch { set_place_mode -timingDriven true }
+catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
+catch { set_place_mode -place_design_floorplan_mode false }
+catch { set_place_mode -place_detail_check_route false }
+catch { set_place_mode -place_detail_preserve_routing true }
+catch { set_place_mode -place_detail_remove_affected_routing false }
+catch { set_place_mode -place_detail_swap_eeq_cells false }
+catch { set_place_mode -place_global_clock_gate_aware true }
+catch { set_place_mode -place_global_cong_effort auto }
+catch { set_place_mode -place_global_ignore_scan true }
+catch { set_place_mode -place_global_ignore_spare false }
+catch { set_place_mode -place_global_module_aware_spare false }
+catch { set_place_mode -place_global_place_io_pins true }
+catch { set_place_mode -place_global_reorder_scan true }
+catch { set_place_mode -powerDriven false }
+catch { set_place_mode -timingDriven true }
+catch { setSrouteMode -viaConnectToShape noshape }
+catch { set_import_mode -config true }
+catch { set_import_mode -discardFloatingVNets false }
+catch { set_import_mode -keepEmptyModule true }
+catch { set_import_mode -timerMode false }
+catch { set_si_mode -separate_delta_delay_on_data true }
+catch { setAddRingMode -avoid_short false }
+catch { setAddRingMode -extend_over_row false }
+catch { setAddRingMode -ignore_rows false }
+catch { setAddRingMode -orthogonal_only true }
+catch { setAddRingMode -ring_target default }
+catch { setAddRingMode -skip_crossing_trunks none }
+catch { setAddRingMode -skip_via_on_pin standardcell }
+catch { setAddRingMode -skip_via_on_wire_shape noshape }
+catch { setAddRingMode -stacked_via_bottom_layer Metal1 }
+catch { setAddRingMode -stacked_via_top_layer Metal9 }
+catch { setAddRingMode -via_using_exact_crossover_size true }
+catch { set_delay_cal_mode -enable_high_fanout true }
+catch { set_delay_cal_mode -eng_copyNetPropToNewNet true }
+catch { set_delay_cal_mode -engine aae }
+catch { set_delay_cal_mode -ignoreNetLoad false }
+catch { set_delay_cal_mode -sgs2set { disableCteSlewDelayCacheInit:true } }
+catch { set_delay_cal_mode -SIAware true }
+catch { set_delay_cal_mode -socv_accuracy_mode low }
+catch { set_analysis_mode -analysisType onChipVariation }
+catch { set_analysis_mode -checkType setup }
+catch { set_analysis_mode -clkSrcPath true }
+catch { set_analysis_mode -clockGatingCheck true }
+catch { set_analysis_mode -clockPropagation sdcControl }
+catch { set_analysis_mode -cppr both }
+catch { set_analysis_mode -enableMultipleDriveNet true }
+catch { set_analysis_mode -log true }
+catch { set_analysis_mode -sequentialConstProp false }
+catch { set_analysis_mode -skew true }
+catch { set_analysis_mode -timeBorrowing true }
+catch { set_analysis_mode -timingSelfLoopsNoSkew false }
+catch { set_analysis_mode -usefulSkew false }
+catch { set_analysis_mode -useOutputPinCap true }
+catch { set_analysis_mode -virtualIPO false }
+catch { set_analysis_mode -warn true }
+catch { setAddStripeMode -allow_jog {padcore_ring block_ring} }
+catch { setAddStripeMode -break_at none }
+catch { setAddStripeMode -extend_to_closest_target none }
+catch { setAddStripeMode -ignore_block_check false }
+catch { setAddStripeMode -ignore_nondefault_domains false }
+catch { setAddStripeMode -orthogonal_only true }
+catch { setAddStripeMode -partial_set_thru_domain false }
+catch { setAddStripeMode -route_over_rows_only false }
+catch { setAddStripeMode -rows_without_stripes_only false }
+catch { setAddStripeMode -skip_via_on_pin standardcell }
+catch { setAddStripeMode -skip_via_on_wire_shape noshape }
+catch { setAddStripeMode -spacing_from_block 0 }
+catch { setAddStripeMode -spacing_type edge_to_edge }
+catch { setAddStripeMode -split_vias false }
+catch { setAddStripeMode -stacked_via_bottom_layer Metal1 }
+catch { setAddStripeMode -stacked_via_top_layer Metal9 }
+catch { setAddStripeMode -stop_at_last_wire_for_area false }
+catch { setAddStripeMode -stripe_min_length stripe_width }
+catch { setAddStripeMode -trim_antenna_back_to_shape none }
+catch { setAddStripeMode -via_using_exact_crossover_size false }
+catch { setRouteMode -earlyGlobalHonorMsvRouteConstraint false }
+catch { setRouteMode -earlyGlobalRoutePartitionPinGuide true }
+catch { setRouteMode -earlyGlobalRouteSecondPG false }
+catch { setEndCapMode -boundary_tap false }
+catch { set_ilm_mode -keepFlatten true }
+catch { set_ilm_mode -keepHighFanoutPorts true }
+catch { set_ilm_mode -keepInstInSdc false }
+catch { set_ilm_mode -keepLoopBack false }
+catch { set_ilm_mode -mergeModel false }
+catch { setFPlanMode -defaultTechSite gsclib090site }
+catch { setFPlanMode -maxIoHeight false }
+catch { setFPlanMode -powerRailLayer {} }

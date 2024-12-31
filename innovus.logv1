@@ -1,0 +1,1226 @@
+[11/23 13:21:11      0s] 
+[11/23 13:21:11      0s] Cadence Innovus(TM) Implementation System.
+[11/23 13:21:11      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/23 13:21:11      0s] 
+[11/23 13:21:11      0s] Version:	v20.14-s095_1, built Mon Apr 19 14:41:42 PDT 2021
+[11/23 13:21:11      0s] Options:	
+[11/23 13:21:11      0s] Date:		Sat Nov 23 13:21:11 2024
+[11/23 13:21:11      0s] Host:		cadencesys3 (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 16384KB)
+[11/23 13:21:11      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[11/23 13:21:11      0s] 
+[11/23 13:21:11      0s] License:
+[11/23 13:21:11      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[11/23 13:21:11      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[11/23 13:21:25      8s] @(#)CDS: Innovus v20.14-s095_1 (64bit) 04/19/2021 14:41 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/23 13:21:25      8s] @(#)CDS: NanoRoute 20.14-s095_1 NR210411-1939/20_14-UB (database version 18.20.547) {superthreading v2.13}
+[11/23 13:21:25      8s] @(#)CDS: AAE 20.14-s018 (64bit) 04/19/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/23 13:21:25      8s] @(#)CDS: CTE 20.14-s027_1 () Apr 13 2021 21:29:07 ( )
+[11/23 13:21:25      8s] @(#)CDS: SYNTECH 20.14-s017_1 () Mar 25 2021 13:07:27 ( )
+[11/23 13:21:25      8s] @(#)CDS: CPE v20.14-s080
+[11/23 13:21:25      8s] @(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/23 13:21:25      8s] @(#)CDS: OA 22.60-p052 Thu Feb 25 10:35:13 2021
+[11/23 13:21:25      8s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[11/23 13:21:25      8s] @(#)CDS: RCDB 11.15.0
+[11/23 13:21:25      8s] @(#)CDS: STYLUS 20.10-p026_1 (03/12/2021 08:04 PST)
+[11/23 13:21:25      8s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI.
+
+[11/23 13:21:25      8s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[11/23 13:21:26     10s] 
+[11/23 13:21:26     10s] **INFO:  MMMC transition support version v31-84 
+[11/23 13:21:26     10s] 
+[11/23 13:21:26     10s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[11/23 13:21:26     10s] <CMD> suppressMessage ENCEXT-2799
+[11/23 13:21:27     10s] <CMD> getVersion
+[11/23 13:21:27     10s] <CMD> getVersion
+[11/23 13:21:27     10s] <CMD> getVersion
+[11/23 13:21:28     10s] [INFO] Loading PVS 20.11 fill procedures
+[11/23 13:21:29     10s] <CMD> win
+[11/23 13:21:48     12s] <CMD> encMessage warning 0
+[11/23 13:21:48     12s] Suppress "**WARN ..." messages.
+[11/23 13:21:48     12s] <CMD> encMessage debug 0
+[11/23 13:21:48     12s] <CMD> encMessage info 0
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POv', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFFc', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POLYc', 
+[11/23 13:21:49     12s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[11/23 13:21:49     12s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:21:49     12s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[11/23 13:21:49     12s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Oxide' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Poly' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Nhvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Nimp' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Phvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Pimp' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Nzvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'SiProt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Cont' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Via1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Via2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Via3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Via4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Via5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-119):	LAYER 'Metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (EMS-27):	Message (IMPLF-119) has exceeded the current message display limit of 20.
+[11/23 13:21:49     13s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:21:49     13s] **ERROR: (IMPLF-223):	The LEF via 'VIA1X' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1V' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1H' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1XR90' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_E' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_W' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_N' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_S' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2X2CUT' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2X' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2H' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2V' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2XR90' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS_S' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS_N' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_N' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_S' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_E' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_W' has been defined and found in the database. The current definition will be ignored. Review the LEF files to ensure that you have not specified duplicate LEF files, or LEF files with duplicate VIA definitions.
+**WARN: (EMS-27):	Message (IMPLF-223) has exceeded the current message display limit of 20.
+[11/23 13:21:49     13s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA1ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA2ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA3ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA4ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA5ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA6ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA7ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'VIA8ARRAY' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M9_M8v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M8_M7v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M7_M6v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M6_M5v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M5_M4v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M4_M3v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M3_M2v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M2_M1v' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M1_POv' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M1_DIFF' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M1_PSUB' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (IMPLF-151):	The viaRule 'M1_PIMP' has been defined, the content will be skipped.
+[11/23 13:21:49     13s] **WARN: (EMS-27):	Message (IMPLF-151) has exceeded the current message display limit of 20.
+[11/23 13:21:49     13s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:21:49     13s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[11/23 13:21:49     13s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:21:49     13s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[11/23 13:21:49     13s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'OAI2BB1X4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'OA22X2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'NAND3X8' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'SDFFRX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'TLATSRX1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'OAI2BB1X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'DLY4X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'ADDFX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'CLKAND2X12' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'MXI3XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'NAND3X6' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'SDFFRX2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'MX3X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'SDFFSRHQX1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'OAI33XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'TLATSRX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'DFFHQX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'AOI221X2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'ADDFX2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-58):	MACRO 'AOI22XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+[11/23 13:21:49     13s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:21:49     13s] **WARN: (IMPLF-61):	487 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[11/23 13:21:49     13s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:21:49     13s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[11/23 13:21:49     13s] Loading view definition file from /home/cadence/Documents/Project_05/ATM.innovus.dat/viewDefinition.tcl
+[11/23 13:21:50     13s] *** End library_loading (cpu=0.01min, real=0.02min, mem=21.0M, fe_cpu=0.23min, fe_real=0.65min, fe_mem=801.6M) ***
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:21:50     13s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[11/23 13:21:50     13s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:21:50     13s] *** Netlist is unique.
+[11/23 13:21:50     13s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/23 13:21:50     13s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/23 13:21:50     13s] Loading preference file /home/cadence/Documents/Project_05/ATM.innovus.dat/gui.pref.tcl ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Deleting Cell Server Begin ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Deleting Cell Server End ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign Begin ...
+[11/23 13:21:50     14s] 
+[11/23 13:21:50     14s] TimeStamp Creating Cell Server ...(0, 0, 0, 0) in restoreDesign End ...
+[11/23 13:21:51     14s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/23 13:21:51     14s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[11/23 13:21:51     14s] Loading place ...
+[11/23 13:21:52     14s] {RT rc 0 9 9 {8 0} 1}
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Deleting Cell Server Begin ...
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Deleting Cell Server End ...
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign Begin ...
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Creating Cell Server ...(0, 1, 1, 1) in restoreDesign End ...
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Deleting Cell Server Begin ...
+[11/23 13:21:52     15s] 
+[11/23 13:21:52     15s] TimeStamp Deleting Cell Server End ...
+[11/23 13:21:52     15s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[11/23 13:21:52     15s] timing_enable_default_delay_arc
+[11/23 13:22:25     18s] <CMD> setAnalysisMode -cppr both -clockGatingCheck true -timeBorrowing true -useOutputPinCap true -sequentialConstProp false -timingSelfLoopsNoSkew false -enableMultipleDriveNet true -clkSrcPath true -warn true -usefulSkew false -analysisType onChipVariation -log true
+[11/23 13:22:41     20s] <CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+[11/23 13:22:41     20s] <CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix ATM_postRoute -outDir timingReports
+[11/23 13:22:41     20s] Switching SI Aware to true by default in postroute mode   
+[11/23 13:22:41     20s] *** timeDesign #1 [begin] : totSession cpu/real = 0:00:21.0/0:01:27.2 (0.2), mem = 1323.7M
+[11/23 13:22:41     20s] Setting timing_disable_library_data_to_data_checks to 'true'.
+[11/23 13:22:41     20s] Setting timing_disable_user_data_to_data_checks to 'true'.
+[11/23 13:22:41     20s]  Reset EOS DB
+[11/23 13:22:41     20s] Ignoring AAE DB Resetting ...
+[11/23 13:22:41     20s] tQuantus: Need to rerun tQuantus because the top cell's isRCExtracted() is false.
+[11/23 13:22:41     20s] #create default rule from bind_ndr_rule rule=0x7fb2471aa530 0x7fb24abeefc0
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     20s] #WARNING (NRFL-369) Ignoring MINIMUMCUT rules with number of cuts less than 2.
+[11/23 13:22:41     21s] ### Net info: total nets: 84
+[11/23 13:22:41     21s] ### Net info: dirty nets: 0
+[11/23 13:22:41     21s] ### Net info: marked as disconnected nets: 0
+[11/23 13:22:41     21s] #num needed restored net=0
+[11/23 13:22:41     21s] #need_extraction net=0 (total=84)
+[11/23 13:22:41     21s] ### Net info: fully routed nets: 82
+[11/23 13:22:41     21s] ### Net info: trivial (< 2 pins) nets: 2
+[11/23 13:22:41     21s] ### Net info: unrouted nets: 0
+[11/23 13:22:41     21s] ### Net info: re-extraction nets: 0
+[11/23 13:22:41     21s] ### Net info: ignored nets: 0
+[11/23 13:22:41     21s] ### Net info: skip routing nets: 0
+[11/23 13:22:41     21s] ### import design signature (2): route=17791473 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=1424247735 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=0
+[11/23 13:22:41     21s] #Extract in post route mode
+[11/23 13:22:41     21s] #Start routing data preparation on Sat Nov 23 13:22:41 2024
+[11/23 13:22:41     21s] #
+[11/23 13:22:41     21s] # Metal1       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.25500
+[11/23 13:22:41     21s] # Metal2       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal3       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal4       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal5       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal6       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal7       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:22:41     21s] # Metal8       V   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:22:41     21s] # Metal9       H   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:22:41     21s] #Regenerating Ggrids automatically.
+[11/23 13:22:41     21s] #Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.29000.
+[11/23 13:22:41     21s] #Using automatically generated G-grids.
+[11/23 13:22:41     21s] #Done routing data preparation.
+[11/23 13:22:41     21s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1135.47 (MB), peak = 1135.47 (MB)
+[11/23 13:22:41     21s] #
+[11/23 13:22:41     21s] #Start tQuantus RC extraction...
+[11/23 13:22:41     21s] #Start building rc corner(s)...
+[11/23 13:22:41     21s] #Number of RC Corner = 1
+[11/23 13:22:41     21s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:22:41     21s] #METAL_1 -> Metal1 (1)
+[11/23 13:22:41     21s] #METAL_2 -> Metal2 (2)
+[11/23 13:22:41     21s] #METAL_3 -> Metal3 (3)
+[11/23 13:22:41     21s] #METAL_4 -> Metal4 (4)
+[11/23 13:22:41     21s] #METAL_5 -> Metal5 (5)
+[11/23 13:22:41     21s] #METAL_6 -> Metal6 (6)
+[11/23 13:22:41     21s] #METAL_7 -> Metal7 (7)
+[11/23 13:22:41     21s] #METAL_8 -> Metal8 (8)
+[11/23 13:22:41     21s] #METAL_9 -> Metal9 (9)
+[11/23 13:22:41     21s] #SADV-On
+[11/23 13:22:41     21s] # Corner(s) : 
+[11/23 13:22:41     21s] #rc [25.00]
+[11/23 13:22:42     21s] # Corner id: 0
+[11/23 13:22:42     21s] # Layout Scale: 1.000000
+[11/23 13:22:42     21s] # Has Metal Fill model: yes
+[11/23 13:22:42     21s] # Temperature was set
+[11/23 13:22:42     21s] # Temperature : 25.000000
+[11/23 13:22:42     21s] # Ref. Temp   : 25.000000
+[11/23 13:22:42     21s] #SADV-Off
+[11/23 13:22:42     21s] #
+[11/23 13:22:42     21s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:22:42     21s] #
+[11/23 13:22:42     21s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:22:42     21s] #total pattern=165 [9, 450]
+[11/23 13:22:42     21s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:22:42     21s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:22:42     21s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:22:42     21s] #number model r/c [1,1] [9,450] read
+[11/23 13:22:42     21s] #0 rcmodel(s) requires rebuild
+[11/23 13:22:42     21s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1145.28 (MB), peak = 1154.44 (MB)
+[11/23 13:22:42     21s] #Start building rc corner(s)...
+[11/23 13:22:42     21s] #Number of RC Corner = 1
+[11/23 13:22:42     21s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:22:42     21s] #METAL_1 -> Metal1 (1)
+[11/23 13:22:42     21s] #METAL_2 -> Metal2 (2)
+[11/23 13:22:42     21s] #METAL_3 -> Metal3 (3)
+[11/23 13:22:42     21s] #METAL_4 -> Metal4 (4)
+[11/23 13:22:42     21s] #METAL_5 -> Metal5 (5)
+[11/23 13:22:42     21s] #METAL_6 -> Metal6 (6)
+[11/23 13:22:42     21s] #METAL_7 -> Metal7 (7)
+[11/23 13:22:42     21s] #METAL_8 -> Metal8 (8)
+[11/23 13:22:42     21s] #METAL_9 -> Metal9 (9)
+[11/23 13:22:42     21s] #SADV-On
+[11/23 13:22:42     21s] # Corner(s) : 
+[11/23 13:22:42     21s] #rc [25.00]
+[11/23 13:22:42     22s] # Corner id: 0
+[11/23 13:22:42     22s] # Layout Scale: 1.000000
+[11/23 13:22:42     22s] # Has Metal Fill model: yes
+[11/23 13:22:42     22s] # Temperature was set
+[11/23 13:22:42     22s] # Temperature : 25.000000
+[11/23 13:22:42     22s] # Ref. Temp   : 25.000000
+[11/23 13:22:42     22s] #SADV-Off
+[11/23 13:22:42     22s] #
+[11/23 13:22:42     22s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:22:42     22s] #
+[11/23 13:22:42     22s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:22:42     22s] #total pattern=165 [9, 450]
+[11/23 13:22:42     22s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:22:42     22s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:22:42     22s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:22:42     22s] #number model r/c [1,1] [9,450] read
+[11/23 13:22:42     22s] #0 rcmodel(s) requires rebuild
+[11/23 13:22:42     22s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1145.65 (MB), peak = 1155.55 (MB)
+[11/23 13:22:42     22s] #Start init net ripin tree building
+[11/23 13:22:42     22s] #Finish init net ripin tree building
+[11/23 13:22:42     22s] #Cpu time = 00:00:00
+[11/23 13:22:42     22s] #Elapsed time = 00:00:00
+[11/23 13:22:42     22s] #Increased memory = 0.01 (MB)
+[11/23 13:22:42     22s] #Total memory = 1145.66 (MB)
+[11/23 13:22:42     22s] #Peak memory = 1155.55 (MB)
+[11/23 13:22:42     22s] #begin processing metal fill model file
+[11/23 13:22:42     22s] #end processing metal fill model file
+[11/23 13:22:42     22s] #Length limit = 200 pitches
+[11/23 13:22:42     22s] #opt mode = 2
+[11/23 13:22:42     22s] #Start generate extraction boxes.
+[11/23 13:22:42     22s] #
+[11/23 13:22:42     22s] #Extract using 30 x 30 Hboxes
+[11/23 13:22:42     22s] #2x2 initial hboxes
+[11/23 13:22:42     22s] #Use area based hbox pruning.
+[11/23 13:22:42     22s] #0/0 hboxes pruned.
+[11/23 13:22:42     22s] #Complete generating extraction boxes.
+[11/23 13:22:42     22s] #Extract 1 hboxes with single thread on machine with  Core_i7 4.63GHz 16384KB Cache 16CPU...
+[11/23 13:22:42     22s] #Process 0 special clock nets for rc extraction
+[11/23 13:22:42     22s] #Total 82 nets were built. 0 nodes added to break long wires. 0 net(s) have incomplete routes.
+[11/23 13:22:42     22s] #Run Statistics for Extraction:
+[11/23 13:22:42     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:42     22s] #   Increased memory =     2.47 (MB), total memory =  1148.88 (MB), peak memory =  1155.55 (MB)
+[11/23 13:22:42     22s] #Simplify RC tree: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1147.20 (MB), peak = 1155.55 (MB)
+[11/23 13:22:42     22s] #RC Statistics: 372 Res, 195 Ground Cap, 1 XCap (Edge to Edge)
+[11/23 13:22:42     22s] #RC V/H edge ratio: 0.47, Avg V/H Edge Length: 2562.68 (239), Avg L-Edge Length: 8861.52 (79)
+[11/23 13:22:42     22s] #Start writing rcdb into /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d
+[11/23 13:22:42     22s] #Finish writing rcdb with 456 nodes, 374 edges, and 2 xcaps
+[11/23 13:22:42     22s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1149.57 (MB), peak = 1160.45 (MB)
+[11/23 13:22:42     22s] Restoring parasitic data from file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d' ...
+[11/23 13:22:42     22s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d' for reading (mem: 1415.477M)
+[11/23 13:22:42     22s] Reading RCDB with compressed RC data.
+[11/23 13:22:42     22s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d' for content verification (mem: 1415.477M)
+[11/23 13:22:42     22s] Reading RCDB with compressed RC data.
+[11/23 13:22:42     22s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d': 0 access done (mem: 1415.477M)
+[11/23 13:22:42     22s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d': 0 access done (mem: 1415.477M)
+[11/23 13:22:42     22s] Begin read_parasitics... (cpu: 0:00:00.0 real: 0:00:00.0 mem: 1415.477M)
+[11/23 13:22:42     22s] Following multi-corner parasitics specified:
+[11/23 13:22:42     22s] 	/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d (rcdb)
+[11/23 13:22:42     22s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d' for reading (mem: 1415.477M)
+[11/23 13:22:42     22s] Reading RCDB with compressed RC data.
+[11/23 13:22:42     22s] 		Cell ATM has rcdb /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d specified
+[11/23 13:22:42     22s] Cell ATM, hinst 
+[11/23 13:22:42     22s] processing rcdb (/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d) for hinst (top) of cell (ATM);
+[11/23 13:22:42     22s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_aRDDBz.rcdb.d': 0 access done (mem: 1415.477M)
+[11/23 13:22:42     22s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1415.477M)
+[11/23 13:22:42     22s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d' for reading (mem: 1415.477M)
+[11/23 13:22:42     22s] Reading RCDB with compressed RC data.
+[11/23 13:22:43     22s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d': 0 access done (mem: 1415.477M)
+[11/23 13:22:43     22s] Lumped Parasitic Loading Completed (total cpu=0:00:00.1, real=0:00:01.0, current mem=1415.477M)
+[11/23 13:22:43     22s] Done read_parasitics... (cpu: 0:00:00.1 real: 0:00:01.0 mem: 1415.477M)
+[11/23 13:22:43     22s] #
+[11/23 13:22:43     22s] #Restore RCDB.
+[11/23 13:22:43     22s] #
+[11/23 13:22:43     22s] #Complete tQuantus RC extraction.
+[11/23 13:22:43     22s] #Cpu time = 00:00:01
+[11/23 13:22:43     22s] #Elapsed time = 00:00:01
+[11/23 13:22:43     22s] #Increased memory = 14.49 (MB)
+[11/23 13:22:43     22s] #Total memory = 1149.96 (MB)
+[11/23 13:22:43     22s] #Peak memory = 1160.45 (MB)
+[11/23 13:22:43     22s] #
+[11/23 13:22:43     22s] #0 inserted nodes are removed
+[11/23 13:22:43     22s] ### export design design signature (4): route=906170120 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=2077567316 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=811303122
+[11/23 13:22:43     22s] #Start Inst Signature in MT(0)
+[11/23 13:22:43     22s] #Start Net Signature in MT(24268858)
+[11/23 13:22:43     22s] #Calculate SNet Signature in MT (45629980)
+[11/23 13:22:43     22s] #Run time and memory report for RC extraction:
+[11/23 13:22:43     22s] #RC extraction running on  Core_i7 4.60GHz 16384KB Cache 16CPU.
+[11/23 13:22:43     22s] #Run Statistics for snet signature:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =     0.00 (MB), total memory =  1157.23 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] #Run Statistics for Net Final Signature:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =     0.00 (MB), total memory =  1157.23 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] #Run Statistics for Net launch:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =     0.01 (MB), total memory =  1157.23 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] #Run Statistics for Net init_dbsNet_slist:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =     0.00 (MB), total memory =  1157.21 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] #Run Statistics for net signature:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =     0.02 (MB), total memory =  1157.23 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] #Run Statistics for inst signature:
+[11/23 13:22:43     22s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:22:43     22s] #   Increased memory =    -0.13 (MB), total memory =  1157.21 (MB), peak memory =  1161.38 (MB)
+[11/23 13:22:43     22s] Starting delay calculation for Setup views
+[11/23 13:22:43     22s] AAE DB initialization (MEM=1441.87 CPU=0:00:00.0 REAL=0:00:00.0) 
+[11/23 13:22:43     22s] Starting SI iteration 1 using Infinite Timing Windows
+[11/23 13:22:43     22s] #################################################################################
+[11/23 13:22:43     22s] # Design Stage: PostRoute
+[11/23 13:22:43     22s] # Design Name: ATM
+[11/23 13:22:43     22s] # Design Mode: 90nm
+[11/23 13:22:43     22s] # Analysis Mode: MMMC OCV 
+[11/23 13:22:43     22s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:22:43     22s] # Signoff Settings: SI On 
+[11/23 13:22:43     22s] #################################################################################
+[11/23 13:22:43     22s] AAE_INFO: 1 threads acquired from CTE.
+[11/23 13:22:43     22s] Setting infinite Tws ...
+[11/23 13:22:43     22s] First Iteration Infinite Tw... 
+[11/23 13:22:43     22s] Calculate early delays in OCV mode...
+[11/23 13:22:43     22s] Calculate late delays in OCV mode...
+[11/23 13:22:43     22s] Topological Sorting (REAL = 0:00:00.0, MEM = 1473.3M, InitMEM = 1473.3M)
+[11/23 13:22:43     22s] Start delay calculation (fullDC) (1 T). (MEM=1473.32)
+[11/23 13:22:43     22s] Start AAE Lib Loading. (MEM=1473.32)
+[11/23 13:22:43     22s] End AAE Lib Loading. (MEM=1482.86 CPU=0:00:00.0 Real=0:00:00.0)
+[11/23 13:22:43     22s] End AAE Lib Interpolated Model. (MEM=1482.86 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:22:43     22s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d' for reading (mem: 1492.402M)
+[11/23 13:22:43     22s] Reading RCDB with compressed RC data.
+[11/23 13:22:43     22s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1492.4M)
+[11/23 13:22:43     22s] Total number of fetched objects 82
+[11/23 13:22:43     22s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:22:43     22s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:22:43     22s] End delay calculation. (MEM=1497 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:22:43     22s] End delay calculation (fullDC). (MEM=1469.93 CPU=0:00:00.1 REAL=0:00:00.0)
+[11/23 13:22:43     22s] *** CDM Built up (cpu=0:00:00.1  real=0:00:00.0  mem= 1469.9M) ***
+[11/23 13:22:43     22s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1469.9M)
+[11/23 13:22:43     22s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[11/23 13:22:43     22s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1469.9M)
+[11/23 13:22:43     22s] Starting SI iteration 2
+[11/23 13:22:43     22s] Calculate early delays in OCV mode...
+[11/23 13:22:43     22s] Calculate late delays in OCV mode...
+[11/23 13:22:43     22s] Start delay calculation (fullDC) (1 T). (MEM=1393.04)
+[11/23 13:22:43     22s] End AAE Lib Interpolated Model. (MEM=1393.04 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:22:43     22s] Glitch Analysis: View bc -- Total Number of Nets Skipped = 0. 
+[11/23 13:22:43     22s] Glitch Analysis: View bc -- Total Number of Nets Analyzed = 82. 
+[11/23 13:22:43     22s] Total number of fetched objects 82
+[11/23 13:22:43     22s] AAE_INFO-618: Total number of nets in the design is 84,  1.2 percent of the nets selected for SI analysis
+[11/23 13:22:43     22s] End delay calculation. (MEM=1436.73 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:22:43     22s] End delay calculation (fullDC). (MEM=1436.73 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:22:43     22s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1436.7M) ***
+[11/23 13:22:43     22s] *** Done Building Timing Graph (cpu=0:00:00.2 real=0:00:00.0 totSessionCpu=0:00:22.5 mem=1436.7M)
+[11/23 13:22:43     22s] Effort level <high> specified for reg2reg path_group
+[11/23 13:22:43     22s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1396.7M
+[11/23 13:22:43     22s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1396.7M
+[11/23 13:22:43     22s] OPERPROF:     Starting spiCheckSiteIfFastDPInitAvailable at level 3, MEM:1396.7M
+[11/23 13:22:43     22s] OPERPROF:     Finished spiCheckSiteIfFastDPInitAvailable at level 3, CPU:0.000, REAL:0.002, MEM:1428.7M
+[11/23 13:22:43     22s] Use non-trimmed site array because memory saving is not enough.
+[11/23 13:22:43     22s] OPERPROF:     Starting RoutingBlockageFromWireViaStBox at level 3, MEM:1428.8M
+[11/23 13:22:43     22s] OPERPROF:     Finished RoutingBlockageFromWireViaStBox at level 3, CPU:0.000, REAL:0.000, MEM:1428.8M
+[11/23 13:22:43     22s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.010, REAL:0.010, MEM:1428.8M
+[11/23 13:22:43     22s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.010, REAL:0.010, MEM:1428.8M
+[11/23 13:22:43     22s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1428.8M
+[11/23 13:22:43     22s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1428.8M
+[11/23 13:22:44     22s] 
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ bc 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  7.308  |  9.287  |  7.308  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   41    |   18    |   35    |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Tech dependent Parameter, Build TLibAnalyzer for: HybridTechSiteEnabled
+[11/23 13:22:44     22s] Density: 63.729%
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir timingReports
+[11/23 13:22:44     22s] Total CPU time: 1.66 sec
+[11/23 13:22:44     22s] Total Real time: 3.0 sec
+[11/23 13:22:44     22s] Total Memory Usage: 1429.757812 Mbytes
+[11/23 13:22:44     22s] Info: pop threads available for lower-level modules during optimization.
+[11/23 13:22:44     22s] Reset AAE Options
+[11/23 13:22:44     22s] *** timeDesign #1 [finish] : cpu/real = 0:00:01.7/0:00:02.6 (0.6), totSession cpu/real = 0:00:22.6/0:01:29.9 (0.3), mem = 1429.8M
+[11/23 13:22:44     22s] 
+[11/23 13:22:44     22s] =============================================================================================
+[11/23 13:22:44     22s]  Final TAT Report for timeDesign #1                                             20.14-s095_1
+[11/23 13:22:44     22s] =============================================================================================
+[11/23 13:22:44     22s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[11/23 13:22:44     22s] ---------------------------------------------------------------------------------------------
+[11/23 13:22:44     22s] [ ViewPruning            ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[11/23 13:22:44     22s] [ ExtractRC              ]      1   0:00:01.5  (  56.0 % )     0:00:01.5 /  0:00:01.3    0.9
+[11/23 13:22:44     22s] [ TimingUpdate           ]      2   0:00:00.0  (   0.6 % )     0:00:00.4 /  0:00:00.2    0.5
+[11/23 13:22:44     22s] [ FullDelayCalc          ]      1   0:00:00.4  (  14.2 % )     0:00:00.4 /  0:00:00.2    0.5
+[11/23 13:22:44     22s] [ OptSummaryReport       ]      1   0:00:00.1  (   2.3 % )     0:00:00.7 /  0:00:00.1    0.2
+[11/23 13:22:44     22s] [ TimingReport           ]      1   0:00:00.0  (   0.2 % )     0:00:00.0 /  0:00:00.0    0.0
+[11/23 13:22:44     22s] [ DrvReport              ]      1   0:00:00.6  (  23.7 % )     0:00:00.6 /  0:00:00.0    0.0
+[11/23 13:22:44     22s] [ GenerateReports        ]      1   0:00:00.0  (   1.1 % )     0:00:00.0 /  0:00:00.0    0.7
+[11/23 13:22:44     22s] [ MISC                   ]          0:00:00.0  (   1.9 % )     0:00:00.0 /  0:00:00.0    0.6
+[11/23 13:22:44     22s] ---------------------------------------------------------------------------------------------
+[11/23 13:22:44     22s]  timeDesign #1 TOTAL                0:00:02.6  ( 100.0 % )     0:00:02.6 /  0:00:01.7    0.6
+[11/23 13:22:44     22s] ---------------------------------------------------------------------------------------------
+[11/23 13:22:44     22s] 
+[11/23 13:23:05     25s] <CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+[11/23 13:23:05     25s] <CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix ATM_postRoute -outDir timingReports
+[11/23 13:23:05     25s] *** timeDesign #2 [begin] : totSession cpu/real = 0:00:25.1/0:01:51.5 (0.2), mem = 1433.9M
+[11/23 13:23:05     25s]  Reset EOS DB
+[11/23 13:23:05     25s] Ignoring AAE DB Resetting ...
+[11/23 13:23:05     25s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d': 82 access done (mem: 1433.930M)
+[11/23 13:23:05     25s] tQuantus: Use design signature to decide re-extraction is ON
+[11/23 13:23:05     25s] #Start Inst Signature in MT(0)
+[11/23 13:23:05     25s] #Start Net Signature in MT(24268858)
+[11/23 13:23:05     25s] #Calculate SNet Signature in MT (45629980)
+[11/23 13:23:05     25s] #Run time and memory report for RC extraction:
+[11/23 13:23:05     25s] #RC extraction running on  Core_i7 4.41GHz 16384KB Cache 16CPU.
+[11/23 13:23:05     25s] #Run Statistics for snet signature:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =     0.00 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] #Run Statistics for Net Final Signature:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =     0.00 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] #Run Statistics for Net launch:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =     0.00 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] #Run Statistics for Net init_dbsNet_slist:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =     0.00 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] #Run Statistics for net signature:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =     0.00 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] #Run Statistics for inst signature:
+[11/23 13:23:05     25s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:05     25s] #   Increased memory =    -6.50 (MB), total memory =  1153.31 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:05     25s] tQuantus: Original signature = 83139491, new signature = 83139491
+[11/23 13:23:05     25s] tQuantus: Design is clean by design signature
+[11/23 13:23:05     25s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d' for reading (mem: 1427.930M)
+[11/23 13:23:05     25s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d': 0 access done (mem: 1427.930M)
+[11/23 13:23:05     25s] The design is extracted. Skipping TQuantus.
+[11/23 13:23:05     25s] Effort level <high> specified for reg2reg path_group
+[11/23 13:23:05     25s] All LLGs are deleted
+[11/23 13:23:05     25s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF:     Starting spiCheckSiteIfFastDPInitAvailable at level 3, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF:     Finished spiCheckSiteIfFastDPInitAvailable at level 3, CPU:0.000, REAL:0.001, MEM:1405.3M
+[11/23 13:23:05     25s] Fast DP-INIT is on for default
+[11/23 13:23:05     25s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.010, REAL:0.009, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.010, REAL:0.009, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1405.3M
+[11/23 13:23:05     25s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1405.3M
+[11/23 13:23:05     25s] Starting delay calculation for Hold views
+[11/23 13:23:05     25s] Starting SI iteration 1 using Infinite Timing Windows
+[11/23 13:23:05     25s] #################################################################################
+[11/23 13:23:05     25s] # Design Stage: PostRoute
+[11/23 13:23:05     25s] # Design Name: ATM
+[11/23 13:23:05     25s] # Design Mode: 90nm
+[11/23 13:23:05     25s] # Analysis Mode: MMMC OCV 
+[11/23 13:23:05     25s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:23:05     25s] # Signoff Settings: SI On 
+[11/23 13:23:05     25s] #################################################################################
+[11/23 13:23:05     25s] AAE_INFO: 1 threads acquired from CTE.
+[11/23 13:23:05     25s] Setting infinite Tws ...
+[11/23 13:23:05     25s] First Iteration Infinite Tw... 
+[11/23 13:23:05     25s] Calculate late delays in OCV mode...
+[11/23 13:23:05     25s] Calculate early delays in OCV mode...
+[11/23 13:23:05     25s] Topological Sorting (REAL = 0:00:00.0, MEM = 1414.9M, InitMEM = 1414.9M)
+[11/23 13:23:05     25s] Start delay calculation (fullDC) (1 T). (MEM=1414.89)
+[11/23 13:23:05     25s] *** Calculating scaling factor for slow libraries using the default operating condition of each library.
+[11/23 13:23:05     25s] End AAE Lib Interpolated Model. (MEM=1414.89 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:23:05     25s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d' for reading (mem: 1414.887M)
+[11/23 13:23:05     25s] Reading RCDB with compressed RC data.
+[11/23 13:23:05     25s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1414.9M)
+[11/23 13:23:05     25s] Total number of fetched objects 82
+[11/23 13:23:05     25s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:23:05     25s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:23:05     25s] End delay calculation. (MEM=1430.57 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:23:05     25s] End delay calculation (fullDC). (MEM=1430.57 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:23:05     25s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1430.6M) ***
+[11/23 13:23:05     25s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1430.6M)
+[11/23 13:23:05     25s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[11/23 13:23:05     25s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1430.6M)
+[11/23 13:23:05     25s] Starting SI iteration 2
+[11/23 13:23:05     25s] Calculate late delays in OCV mode...
+[11/23 13:23:05     25s] Calculate early delays in OCV mode...
+[11/23 13:23:05     25s] Start delay calculation (fullDC) (1 T). (MEM=1400.69)
+[11/23 13:23:05     25s] End AAE Lib Interpolated Model. (MEM=1400.69 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:23:05     25s] Glitch Analysis: View wc -- Total Number of Nets Skipped = 0. 
+[11/23 13:23:05     25s] Glitch Analysis: View wc -- Total Number of Nets Analyzed = 82. 
+[11/23 13:23:05     25s] Total number of fetched objects 82
+[11/23 13:23:05     25s] AAE_INFO-618: Total number of nets in the design is 84,  2.4 percent of the nets selected for SI analysis
+[11/23 13:23:05     25s] End delay calculation. (MEM=1439.86 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:23:05     25s] End delay calculation (fullDC). (MEM=1439.86 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:23:05     25s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1439.9M) ***
+[11/23 13:23:05     25s] *** Done Building Timing Graph (cpu=0:00:00.1 real=0:00:00.0 totSessionCpu=0:00:25.3 mem=1439.9M)
+[11/23 13:23:05     25s] 
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ wc 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| -0.119  |  0.269  | -0.119  |
+|           TNS (ns):| -0.119  |  0.000  | -0.119  |
+|    Violating Paths:|    1    |    0    |    1    |
+|          All Paths:|   41    |   18    |   35    |
++--------------------+---------+---------+---------+
+
+Tech dependent Parameter, Build TLibAnalyzer for: HybridTechSiteEnabled
+[11/23 13:23:05     25s] Density: 63.729%
+------------------------------------------------------------------
+Reported timing to dir timingReports
+[11/23 13:23:06     25s] Total CPU time: 0.21 sec
+[11/23 13:23:06     25s] Total Real time: 1.0 sec
+[11/23 13:23:06     25s] Total Memory Usage: 1365.125 Mbytes
+[11/23 13:23:06     25s] Reset AAE Options
+[11/23 13:23:06     25s] *** timeDesign #2 [finish] : cpu/real = 0:00:00.2/0:00:00.2 (1.0), totSession cpu/real = 0:00:25.4/0:01:51.7 (0.2), mem = 1365.1M
+[11/23 13:23:06     25s] 
+[11/23 13:23:06     25s] =============================================================================================
+[11/23 13:23:06     25s]  Final TAT Report for timeDesign #2                                             20.14-s095_1
+[11/23 13:23:06     25s] =============================================================================================
+[11/23 13:23:06     25s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[11/23 13:23:06     25s] ---------------------------------------------------------------------------------------------
+[11/23 13:23:06     25s] [ ViewPruning            ]      2   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[11/23 13:23:06     25s] [ ExtractRC              ]      1   0:00:00.0  (   1.7 % )     0:00:00.0 /  0:00:00.0    0.0
+[11/23 13:23:06     25s] [ TimingUpdate           ]      1   0:00:00.0  (   5.2 % )     0:00:00.1 /  0:00:00.1    1.0
+[11/23 13:23:06     25s] [ FullDelayCalc          ]      1   0:00:00.1  (  40.2 % )     0:00:00.1 /  0:00:00.1    1.0
+[11/23 13:23:06     25s] [ OptSummaryReport       ]      1   0:00:00.0  (   7.4 % )     0:00:00.1 /  0:00:00.1    1.1
+[11/23 13:23:06     25s] [ TimingReport           ]      1   0:00:00.0  (   1.5 % )     0:00:00.0 /  0:00:00.0    0.0
+[11/23 13:23:06     25s] [ GenerateReports        ]      1   0:00:00.0  (  12.2 % )     0:00:00.0 /  0:00:00.0    1.2
+[11/23 13:23:06     25s] [ MISC                   ]          0:00:00.1  (  31.8 % )     0:00:00.1 /  0:00:00.1    0.9
+[11/23 13:23:06     25s] ---------------------------------------------------------------------------------------------
+[11/23 13:23:06     25s]  timeDesign #2 TOTAL                0:00:00.2  ( 100.0 % )     0:00:00.2 /  0:00:00.2    1.0
+[11/23 13:23:06     25s] ---------------------------------------------------------------------------------------------
+[11/23 13:23:06     25s] 
+[11/23 13:23:50     30s] <CMD> reset_parasitics
+[11/23 13:23:50     30s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_q1DbyF.rcdb.d/ATM.rcdb.d': 82 access done (mem: 1369.297M)
+[11/23 13:23:50     30s] Performing RC Extraction ...
+[11/23 13:23:50     30s] <CMD> extractRC
+[11/23 13:23:50     30s] tQuantus: Need to rerun tQuantus because the top cell's isRCExtracted() is false.
+[11/23 13:23:50     30s] ### Net info: total nets: 84
+[11/23 13:23:50     30s] ### Net info: dirty nets: 0
+[11/23 13:23:50     30s] ### Net info: marked as disconnected nets: 0
+[11/23 13:23:50     30s] #num needed restored net=0
+[11/23 13:23:50     30s] #need_extraction net=0 (total=84)
+[11/23 13:23:50     30s] ### Net info: fully routed nets: 82
+[11/23 13:23:50     30s] ### Net info: trivial (< 2 pins) nets: 2
+[11/23 13:23:50     30s] ### Net info: unrouted nets: 0
+[11/23 13:23:50     30s] ### Net info: re-extraction nets: 0
+[11/23 13:23:50     30s] ### Net info: ignored nets: 0
+[11/23 13:23:50     30s] ### Net info: skip routing nets: 0
+[11/23 13:23:50     30s] ### import design signature (5): route=17791473 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=1424247735 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=0
+[11/23 13:23:50     30s] #Extract in post route mode
+[11/23 13:23:50     30s] #Start routing data preparation on Sat Nov 23 13:23:50 2024
+[11/23 13:23:50     30s] #
+[11/23 13:23:50     30s] # Metal1       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.25500
+[11/23 13:23:50     30s] # Metal2       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal3       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal4       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal5       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal6       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal7       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:23:50     30s] # Metal8       V   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:23:50     30s] # Metal9       H   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:23:50     30s] #Regenerating Ggrids automatically.
+[11/23 13:23:50     30s] #Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.29000.
+[11/23 13:23:50     30s] #Using automatically generated G-grids.
+[11/23 13:23:50     30s] #Done routing data preparation.
+[11/23 13:23:50     30s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1111.88 (MB), peak = 1221.92 (MB)
+[11/23 13:23:50     30s] #
+[11/23 13:23:50     30s] #Start tQuantus RC extraction...
+[11/23 13:23:50     30s] #Start building rc corner(s)...
+[11/23 13:23:50     30s] #Number of RC Corner = 1
+[11/23 13:23:50     30s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:23:50     30s] #METAL_1 -> Metal1 (1)
+[11/23 13:23:50     30s] #METAL_2 -> Metal2 (2)
+[11/23 13:23:50     30s] #METAL_3 -> Metal3 (3)
+[11/23 13:23:50     30s] #METAL_4 -> Metal4 (4)
+[11/23 13:23:50     30s] #METAL_5 -> Metal5 (5)
+[11/23 13:23:50     30s] #METAL_6 -> Metal6 (6)
+[11/23 13:23:50     30s] #METAL_7 -> Metal7 (7)
+[11/23 13:23:50     30s] #METAL_8 -> Metal8 (8)
+[11/23 13:23:50     30s] #METAL_9 -> Metal9 (9)
+[11/23 13:23:50     30s] #SADV-On
+[11/23 13:23:50     30s] # Corner(s) : 
+[11/23 13:23:50     30s] #rc [25.00]
+[11/23 13:23:50     30s] # Corner id: 0
+[11/23 13:23:50     30s] # Layout Scale: 1.000000
+[11/23 13:23:50     30s] # Has Metal Fill model: yes
+[11/23 13:23:50     30s] # Temperature was set
+[11/23 13:23:50     30s] # Temperature : 25.000000
+[11/23 13:23:50     30s] # Ref. Temp   : 25.000000
+[11/23 13:23:50     30s] #SADV-Off
+[11/23 13:23:50     30s] #
+[11/23 13:23:50     30s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:23:50     30s] #
+[11/23 13:23:50     30s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:23:50     30s] #total pattern=165 [9, 450]
+[11/23 13:23:50     30s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:23:50     30s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:23:50     30s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:23:50     30s] #number model r/c [1,1] [9,450] read
+[11/23 13:23:50     30s] #0 rcmodel(s) requires rebuild
+[11/23 13:23:50     30s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1119.62 (MB), peak = 1221.92 (MB)
+[11/23 13:23:50     30s] #Start building rc corner(s)...
+[11/23 13:23:50     30s] #Number of RC Corner = 1
+[11/23 13:23:50     30s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:23:50     30s] #METAL_1 -> Metal1 (1)
+[11/23 13:23:50     30s] #METAL_2 -> Metal2 (2)
+[11/23 13:23:50     30s] #METAL_3 -> Metal3 (3)
+[11/23 13:23:50     30s] #METAL_4 -> Metal4 (4)
+[11/23 13:23:50     30s] #METAL_5 -> Metal5 (5)
+[11/23 13:23:50     30s] #METAL_6 -> Metal6 (6)
+[11/23 13:23:50     30s] #METAL_7 -> Metal7 (7)
+[11/23 13:23:50     30s] #METAL_8 -> Metal8 (8)
+[11/23 13:23:50     30s] #METAL_9 -> Metal9 (9)
+[11/23 13:23:50     30s] #SADV-On
+[11/23 13:23:50     30s] # Corner(s) : 
+[11/23 13:23:50     30s] #rc [25.00]
+[11/23 13:23:51     31s] # Corner id: 0
+[11/23 13:23:51     31s] # Layout Scale: 1.000000
+[11/23 13:23:51     31s] # Has Metal Fill model: yes
+[11/23 13:23:51     31s] # Temperature was set
+[11/23 13:23:51     31s] # Temperature : 25.000000
+[11/23 13:23:51     31s] # Ref. Temp   : 25.000000
+[11/23 13:23:51     31s] #SADV-Off
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:23:51     31s] #total pattern=165 [9, 450]
+[11/23 13:23:51     31s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:23:51     31s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:23:51     31s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:23:51     31s] #number model r/c [1,1] [9,450] read
+[11/23 13:23:51     31s] #0 rcmodel(s) requires rebuild
+[11/23 13:23:51     31s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1120.49 (MB), peak = 1221.92 (MB)
+[11/23 13:23:51     31s] #Start init net ripin tree building
+[11/23 13:23:51     31s] #Finish init net ripin tree building
+[11/23 13:23:51     31s] #Cpu time = 00:00:00
+[11/23 13:23:51     31s] #Elapsed time = 00:00:00
+[11/23 13:23:51     31s] #Increased memory = 0.00 (MB)
+[11/23 13:23:51     31s] #Total memory = 1120.49 (MB)
+[11/23 13:23:51     31s] #Peak memory = 1221.92 (MB)
+[11/23 13:23:51     31s] #begin processing metal fill model file
+[11/23 13:23:51     31s] #end processing metal fill model file
+[11/23 13:23:51     31s] #Length limit = 200 pitches
+[11/23 13:23:51     31s] #opt mode = 2
+[11/23 13:23:51     31s] #Start generate extraction boxes.
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #Extract using 30 x 30 Hboxes
+[11/23 13:23:51     31s] #2x2 initial hboxes
+[11/23 13:23:51     31s] #Use area based hbox pruning.
+[11/23 13:23:51     31s] #0/0 hboxes pruned.
+[11/23 13:23:51     31s] #Complete generating extraction boxes.
+[11/23 13:23:51     31s] #Extract 1 hboxes with single thread on machine with  Core_i7 4.70GHz 16384KB Cache 16CPU...
+[11/23 13:23:51     31s] #Process 0 special clock nets for rc extraction
+[11/23 13:23:51     31s] #Total 82 nets were built. 0 nodes added to break long wires. 0 net(s) have incomplete routes.
+[11/23 13:23:51     31s] #Run Statistics for Extraction:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     1.32 (MB), total memory =  1122.56 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Simplify RC tree: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1120.28 (MB), peak = 1221.92 (MB)
+[11/23 13:23:51     31s] #RC Statistics: 372 Res, 195 Ground Cap, 1 XCap (Edge to Edge)
+[11/23 13:23:51     31s] #RC V/H edge ratio: 0.47, Avg V/H Edge Length: 2562.68 (239), Avg L-Edge Length: 8861.52 (79)
+[11/23 13:23:51     31s] #Start writing rcdb into /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d
+[11/23 13:23:51     31s] #Finish writing rcdb with 456 nodes, 374 edges, and 2 xcaps
+[11/23 13:23:51     31s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1122.36 (MB), peak = 1221.92 (MB)
+[11/23 13:23:51     31s] Restoring parasitic data from file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d' ...
+[11/23 13:23:51     31s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d' for reading (mem: 1414.082M)
+[11/23 13:23:51     31s] Reading RCDB with compressed RC data.
+[11/23 13:23:51     31s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d' for content verification (mem: 1414.082M)
+[11/23 13:23:51     31s] Reading RCDB with compressed RC data.
+[11/23 13:23:51     31s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d': 0 access done (mem: 1414.082M)
+[11/23 13:23:51     31s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d': 0 access done (mem: 1414.082M)
+[11/23 13:23:51     31s] Begin read_parasitics... (cpu: 0:00:00.0 real: 0:00:00.0 mem: 1414.082M)
+[11/23 13:23:51     31s] Following multi-corner parasitics specified:
+[11/23 13:23:51     31s] 	/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d (rcdb)
+[11/23 13:23:51     31s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d' for reading (mem: 1414.082M)
+[11/23 13:23:51     31s] Reading RCDB with compressed RC data.
+[11/23 13:23:51     31s] 		Cell ATM has rcdb /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d specified
+[11/23 13:23:51     31s] Cell ATM, hinst 
+[11/23 13:23:51     31s] processing rcdb (/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d) for hinst (top) of cell (ATM);
+[11/23 13:23:51     31s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_2HN3Dc.rcdb.d': 0 access done (mem: 1414.082M)
+[11/23 13:23:51     31s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1414.082M)
+[11/23 13:23:51     31s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_a7LQEN.rcdb.d/ATM.rcdb.d' for reading (mem: 1414.082M)
+[11/23 13:23:51     31s] Reading RCDB with compressed RC data.
+[11/23 13:23:51     31s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_a7LQEN.rcdb.d/ATM.rcdb.d': 0 access done (mem: 1414.082M)
+[11/23 13:23:51     31s] Lumped Parasitic Loading Completed (total cpu=0:00:00.1, real=0:00:00.0, current mem=1414.082M)
+[11/23 13:23:51     31s] Done read_parasitics... (cpu: 0:00:00.1 real: 0:00:00.0 mem: 1414.082M)
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #Restore RCDB.
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #Complete tQuantus RC extraction.
+[11/23 13:23:51     31s] #Cpu time = 00:00:01
+[11/23 13:23:51     31s] #Elapsed time = 00:00:01
+[11/23 13:23:51     31s] #Increased memory = 10.46 (MB)
+[11/23 13:23:51     31s] #Total memory = 1122.34 (MB)
+[11/23 13:23:51     31s] #Peak memory = 1221.92 (MB)
+[11/23 13:23:51     31s] #
+[11/23 13:23:51     31s] #0 inserted nodes are removed
+[11/23 13:23:51     31s] ### export design design signature (7): route=906170120 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=2077567316 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=811303122
+[11/23 13:23:51     31s] #Start Inst Signature in MT(0)
+[11/23 13:23:51     31s] #Start Net Signature in MT(24268858)
+[11/23 13:23:51     31s] #Calculate SNet Signature in MT (45629980)
+[11/23 13:23:51     31s] #Run time and memory report for RC extraction:
+[11/23 13:23:51     31s] #RC extraction running on  Core_i7 4.65GHz 16384KB Cache 16CPU.
+[11/23 13:23:51     31s] #Run Statistics for snet signature:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     0.00 (MB), total memory =  1119.58 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Run Statistics for Net Final Signature:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     0.00 (MB), total memory =  1119.57 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Run Statistics for Net launch:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     0.00 (MB), total memory =  1119.57 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Run Statistics for Net init_dbsNet_slist:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     0.00 (MB), total memory =  1119.57 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Run Statistics for net signature:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =     0.00 (MB), total memory =  1119.57 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] #Run Statistics for inst signature:
+[11/23 13:23:51     31s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:23:51     31s] #   Increased memory =    -0.09 (MB), total memory =  1119.57 (MB), peak memory =  1221.92 (MB)
+[11/23 13:23:51     31s] <CMD> rcOut -spf ATM.spf -rc_corner rc
+[11/23 13:23:51     31s] 
+[11/23 13:23:51     31s] Usage: rcOut [-help] [-excludeIlm] [-noRes] {{{-spef <string>} [-excNetFile <string> | -net <string> | -netName <string>] } } [-view <string> | -rc_corner <string>] [-cUnit {pF fF}]
+[11/23 13:23:51     31s] 
+[11/23 13:23:51     31s] **ERROR: (IMPTCM-48):	"-spf" is not a legal option for command "rcOut". Either the current option or an option prior to it is not specified correctly.
+
+[11/23 13:23:51     31s] **ERROR: (IMPSYT-6967):	<CMD> reset_parasitics
+[11/23 13:24:19     34s] Performing RC Extraction ...
+[11/23 13:24:19     34s] <CMD> extractRC
+[11/23 13:24:19     34s] tQuantus: Need to rerun tQuantus because the top cell's isRCExtracted() is false.
+[11/23 13:24:19     34s] ### Net info: total nets: 84
+[11/23 13:24:19     34s] ### Net info: dirty nets: 0
+[11/23 13:24:19     34s] ### Net info: marked as disconnected nets: 0
+[11/23 13:24:19     34s] #num needed restored net=0
+[11/23 13:24:19     34s] #need_extraction net=0 (total=84)
+[11/23 13:24:19     34s] ### Net info: fully routed nets: 82
+[11/23 13:24:19     34s] ### Net info: trivial (< 2 pins) nets: 2
+[11/23 13:24:19     34s] ### Net info: unrouted nets: 0
+[11/23 13:24:19     34s] ### Net info: re-extraction nets: 0
+[11/23 13:24:19     34s] ### Net info: ignored nets: 0
+[11/23 13:24:19     34s] ### Net info: skip routing nets: 0
+[11/23 13:24:19     34s] ### import design signature (8): route=17791473 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=1424247735 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=0
+[11/23 13:24:19     34s] #Extract in post route mode
+[11/23 13:24:19     34s] #Start routing data preparation on Sat Nov 23 13:24:19 2024
+[11/23 13:24:19     34s] #
+[11/23 13:24:19     34s] # Metal1       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.25500
+[11/23 13:24:19     34s] # Metal2       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal3       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal4       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal5       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal6       V   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal7       H   Track-Pitch = 0.29000    Line-2-Via Pitch = 0.28500
+[11/23 13:24:19     34s] # Metal8       V   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:24:19     34s] # Metal9       H   Track-Pitch = 0.87000    Line-2-Via Pitch = 0.85000
+[11/23 13:24:19     34s] #Regenerating Ggrids automatically.
+[11/23 13:24:19     34s] #Auto generating G-grids with size=15 tracks, using layer Metal3's pitch = 0.29000.
+[11/23 13:24:19     34s] #Using automatically generated G-grids.
+[11/23 13:24:19     34s] #Done routing data preparation.
+[11/23 13:24:19     34s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1124.36 (MB), peak = 1221.92 (MB)
+[11/23 13:24:19     34s] #
+[11/23 13:24:19     34s] #Start tQuantus RC extraction...
+[11/23 13:24:19     34s] #Start building rc corner(s)...
+[11/23 13:24:19     34s] #Number of RC Corner = 1
+[11/23 13:24:19     34s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:24:19     34s] #METAL_1 -> Metal1 (1)
+[11/23 13:24:19     34s] #METAL_2 -> Metal2 (2)
+[11/23 13:24:19     34s] #METAL_3 -> Metal3 (3)
+[11/23 13:24:19     34s] #METAL_4 -> Metal4 (4)
+[11/23 13:24:19     34s] #METAL_5 -> Metal5 (5)
+[11/23 13:24:19     34s] #METAL_6 -> Metal6 (6)
+[11/23 13:24:19     34s] #METAL_7 -> Metal7 (7)
+[11/23 13:24:19     34s] #METAL_8 -> Metal8 (8)
+[11/23 13:24:19     34s] #METAL_9 -> Metal9 (9)
+[11/23 13:24:19     34s] #SADV-On
+[11/23 13:24:19     34s] # Corner(s) : 
+[11/23 13:24:19     34s] #rc [25.00]
+[11/23 13:24:20     35s] # Corner id: 0
+[11/23 13:24:20     35s] # Layout Scale: 1.000000
+[11/23 13:24:20     35s] # Has Metal Fill model: yes
+[11/23 13:24:20     35s] # Temperature was set
+[11/23 13:24:20     35s] # Temperature : 25.000000
+[11/23 13:24:20     35s] # Ref. Temp   : 25.000000
+[11/23 13:24:20     35s] #SADV-Off
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:24:20     35s] #total pattern=165 [9, 450]
+[11/23 13:24:20     35s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:24:20     35s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:24:20     35s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:24:20     35s] #number model r/c [1,1] [9,450] read
+[11/23 13:24:20     35s] #0 rcmodel(s) requires rebuild
+[11/23 13:24:20     35s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1127.57 (MB), peak = 1221.92 (MB)
+[11/23 13:24:20     35s] #Start building rc corner(s)...
+[11/23 13:24:20     35s] #Number of RC Corner = 1
+[11/23 13:24:20     35s] #Corner rc /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 (real) 
+[11/23 13:24:20     35s] #METAL_1 -> Metal1 (1)
+[11/23 13:24:20     35s] #METAL_2 -> Metal2 (2)
+[11/23 13:24:20     35s] #METAL_3 -> Metal3 (3)
+[11/23 13:24:20     35s] #METAL_4 -> Metal4 (4)
+[11/23 13:24:20     35s] #METAL_5 -> Metal5 (5)
+[11/23 13:24:20     35s] #METAL_6 -> Metal6 (6)
+[11/23 13:24:20     35s] #METAL_7 -> Metal7 (7)
+[11/23 13:24:20     35s] #METAL_8 -> Metal8 (8)
+[11/23 13:24:20     35s] #METAL_9 -> Metal9 (9)
+[11/23 13:24:20     35s] #SADV-On
+[11/23 13:24:20     35s] # Corner(s) : 
+[11/23 13:24:20     35s] #rc [25.00]
+[11/23 13:24:20     35s] # Corner id: 0
+[11/23 13:24:20     35s] # Layout Scale: 1.000000
+[11/23 13:24:20     35s] # Has Metal Fill model: yes
+[11/23 13:24:20     35s] # Temperature was set
+[11/23 13:24:20     35s] # Temperature : 25.000000
+[11/23 13:24:20     35s] # Ref. Temp   : 25.000000
+[11/23 13:24:20     35s] #SADV-Off
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #layer[8] tech spc 800 != ict spc 880.0
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #layer[9] tech spc 800 != ict spc 880.0
+[11/23 13:24:20     35s] #total pattern=165 [9, 450]
+[11/23 13:24:20     35s] #Reading previously stored rc_model file ( /home/cadence/Documents/Project_05/ATM.innovus.dat/libs/misc/rc_model.bin ) ...
+[11/23 13:24:20     35s] #found CAPMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch
+[11/23 13:24:20     35s] #found RESMODEL /home/installs/FOUNDRY/digital/90nm/dig/qx/gpdk090_9l.tch 25.000000 
+[11/23 13:24:20     35s] #number model r/c [1,1] [9,450] read
+[11/23 13:24:20     35s] #0 rcmodel(s) requires rebuild
+[11/23 13:24:20     35s] #Build RC corners: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1129.18 (MB), peak = 1221.92 (MB)
+[11/23 13:24:20     35s] #Start init net ripin tree building
+[11/23 13:24:20     35s] #Finish init net ripin tree building
+[11/23 13:24:20     35s] #Cpu time = 00:00:00
+[11/23 13:24:20     35s] #Elapsed time = 00:00:00
+[11/23 13:24:20     35s] #Increased memory = 0.00 (MB)
+[11/23 13:24:20     35s] #Total memory = 1129.18 (MB)
+[11/23 13:24:20     35s] #Peak memory = 1221.92 (MB)
+[11/23 13:24:20     35s] #begin processing metal fill model file
+[11/23 13:24:20     35s] #end processing metal fill model file
+[11/23 13:24:20     35s] #Length limit = 200 pitches
+[11/23 13:24:20     35s] #opt mode = 2
+[11/23 13:24:20     35s] #Start generate extraction boxes.
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #Extract using 30 x 30 Hboxes
+[11/23 13:24:20     35s] #2x2 initial hboxes
+[11/23 13:24:20     35s] #Use area based hbox pruning.
+[11/23 13:24:20     35s] #0/0 hboxes pruned.
+[11/23 13:24:20     35s] #Complete generating extraction boxes.
+[11/23 13:24:20     35s] #Extract 1 hboxes with single thread on machine with  Core_i7 4.70GHz 16384KB Cache 16CPU...
+[11/23 13:24:20     35s] #Process 0 special clock nets for rc extraction
+[11/23 13:24:20     35s] #Total 82 nets were built. 0 nodes added to break long wires. 0 net(s) have incomplete routes.
+[11/23 13:24:20     35s] #Run Statistics for Extraction:
+[11/23 13:24:20     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:20     35s] #   Increased memory =     0.91 (MB), total memory =  1130.14 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:20     35s] #Simplify RC tree: cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1128.96 (MB), peak = 1221.92 (MB)
+[11/23 13:24:20     35s] #RC Statistics: 372 Res, 195 Ground Cap, 1 XCap (Edge to Edge)
+[11/23 13:24:20     35s] #RC V/H edge ratio: 0.47, Avg V/H Edge Length: 2562.68 (239), Avg L-Edge Length: 8861.52 (79)
+[11/23 13:24:20     35s] #Start writing rcdb into /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d
+[11/23 13:24:20     35s] #Finish writing rcdb with 456 nodes, 374 edges, and 2 xcaps
+[11/23 13:24:20     35s] #cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1129.86 (MB), peak = 1221.92 (MB)
+[11/23 13:24:20     35s] Restoring parasitic data from file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d' ...
+[11/23 13:24:20     35s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d' for reading (mem: 1420.020M)
+[11/23 13:24:20     35s] Reading RCDB with compressed RC data.
+[11/23 13:24:20     35s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d' for content verification (mem: 1420.020M)
+[11/23 13:24:20     35s] Reading RCDB with compressed RC data.
+[11/23 13:24:20     35s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d': 0 access done (mem: 1420.020M)
+[11/23 13:24:20     35s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d': 0 access done (mem: 1420.020M)
+[11/23 13:24:20     35s] Begin read_parasitics... (cpu: 0:00:00.0 real: 0:00:00.0 mem: 1420.020M)
+[11/23 13:24:20     35s] Following multi-corner parasitics specified:
+[11/23 13:24:20     35s] 	/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d (rcdb)
+[11/23 13:24:20     35s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d' for reading (mem: 1420.020M)
+[11/23 13:24:20     35s] Reading RCDB with compressed RC data.
+[11/23 13:24:20     35s] 		Cell ATM has rcdb /tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d specified
+[11/23 13:24:20     35s] Cell ATM, hinst 
+[11/23 13:24:20     35s] processing rcdb (/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d) for hinst (top) of cell (ATM);
+[11/23 13:24:20     35s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/nr3541_iJxlJT.rcdb.d': 0 access done (mem: 1420.020M)
+[11/23 13:24:20     35s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1420.020M)
+[11/23 13:24:20     35s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_1WqNd0.rcdb.d/ATM.rcdb.d' for reading (mem: 1420.020M)
+[11/23 13:24:20     35s] Reading RCDB with compressed RC data.
+[11/23 13:24:20     35s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_1WqNd0.rcdb.d/ATM.rcdb.d': 0 access done (mem: 1420.020M)
+[11/23 13:24:20     35s] Lumped Parasitic Loading Completed (total cpu=0:00:00.1, real=0:00:00.0, current mem=1420.020M)
+[11/23 13:24:20     35s] Done read_parasitics... (cpu: 0:00:00.1 real: 0:00:00.0 mem: 1420.020M)
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #Restore RCDB.
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #Complete tQuantus RC extraction.
+[11/23 13:24:20     35s] #Cpu time = 00:00:01
+[11/23 13:24:20     35s] #Elapsed time = 00:00:01
+[11/23 13:24:20     35s] #Increased memory = 5.47 (MB)
+[11/23 13:24:20     35s] #Total memory = 1129.83 (MB)
+[11/23 13:24:20     35s] #Peak memory = 1221.92 (MB)
+[11/23 13:24:20     35s] #
+[11/23 13:24:20     35s] #0 inserted nodes are removed
+[11/23 13:24:20     35s] ### export design design signature (10): route=906170120 flt_obj=0 vio=1905142130 swire=282492057 shield_wire=1 net_attr=2077567316 dirty_area=0 del_dirty_area=0 cell=1811305904 placement=1919716668 pin_access=1 inst_pattern=1 halo=811303122
+[11/23 13:24:20     35s] #Start Inst Signature in MT(0)
+[11/23 13:24:20     35s] #Start Net Signature in MT(24268858)
+[11/23 13:24:21     35s] #Calculate SNet Signature in MT (45629980)
+[11/23 13:24:21     35s] #Run time and memory report for RC extraction:
+[11/23 13:24:21     35s] #RC extraction running on  Core_i7 4.64GHz 16384KB Cache 16CPU.
+[11/23 13:24:21     35s] #Run Statistics for snet signature:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =     0.00 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] #Run Statistics for Net Final Signature:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =     0.00 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] #Run Statistics for Net launch:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =     0.00 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] #Run Statistics for Net init_dbsNet_slist:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =     0.00 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] #Run Statistics for net signature:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =     0.00 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] #Run Statistics for inst signature:
+[11/23 13:24:21     35s] #   Cpu time = 00:00:00, elapsed time = 00:00:00 .
+[11/23 13:24:21     35s] #   Increased memory =    -0.02 (MB), total memory =  1125.01 (MB), peak memory =  1221.92 (MB)
+[11/23 13:24:21     35s] <CMD> rcOut -spef ATM.spef -rc_corner rc
+[11/23 13:24:21     35s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_1WqNd0.rcdb.d/ATM.rcdb.d' for reading (mem: 1412.016M)
+[11/23 13:24:21     35s] Reading RCDB with compressed RC data.
+[11/23 13:24:21     35s] RC Out has the following PVT Info:
+[11/23 13:24:21     35s]    RC:rc
+[11/23 13:24:21     35s] Dumping Spef file.....
+[11/23 13:24:21     35s] Printing D_NET...
+[11/23 13:24:21     35s] RC Out from RCDB Completed (CPU Time= 0:00:00.0  MEM= 1416.0M)
+[11/23 13:24:21     35s] Closing parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_1WqNd0.rcdb.d/ATM.rcdb.d': 82 access done (mem: 1416.016M)
+[11/23 13:24:36     37s] <CMD> all_hold_analysis_views 
+[11/23 13:24:36     37s] <CMD> all_setup_analysis_views 
+[11/23 13:24:38     37s] <CMD> write_sdf  -ideal_clock_network ATM.sdf
+[11/23 13:24:38     37s] **WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+[11/23 13:24:38     37s] Starting SI iteration 1 using Infinite Timing Windows
+[11/23 13:24:38     37s] #################################################################################
+[11/23 13:24:38     37s] # Design Stage: PostRoute
+[11/23 13:24:38     37s] # Design Name: ATM
+[11/23 13:24:38     37s] # Design Mode: 90nm
+[11/23 13:24:38     37s] # Analysis Mode: MMMC OCV 
+[11/23 13:24:38     37s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:24:38     37s] # Signoff Settings: SI On 
+[11/23 13:24:38     37s] #################################################################################
+[11/23 13:24:38     37s] AAE_INFO: 1 threads acquired from CTE.
+[11/23 13:24:38     37s] Setting infinite Tws ...
+[11/23 13:24:38     37s] First Iteration Infinite Tw... 
+[11/23 13:24:38     37s] Calculate early delays in OCV mode...
+[11/23 13:24:38     37s] Calculate late delays in OCV mode...
+[11/23 13:24:38     37s] Calculate late delays in OCV mode...
+[11/23 13:24:38     37s] Calculate early delays in OCV mode...
+[11/23 13:24:38     37s] Topological Sorting (REAL = 0:00:00.0, MEM = 1444.0M, InitMEM = 1444.0M)
+[11/23 13:24:38     37s] Start delay calculation (fullDC) (1 T). (MEM=1443.98)
+[11/23 13:24:38     37s] *** Calculating scaling factor for fast libraries using the default operating condition of each library.
+[11/23 13:24:38     37s] End AAE Lib Interpolated Model. (MEM=1443.98 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:24:38     37s] Opening parasitic data file '/tmp/innovus_temp_3541_cadencesys3_cadence_v1dDbI/ATM_3541_1WqNd0.rcdb.d/ATM.rcdb.d' for reading (mem: 1443.984M)
+[11/23 13:24:38     37s] Reading RCDB with compressed RC data.
+[11/23 13:24:38     37s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1446.0M)
+[11/23 13:24:38     37s] Total number of fetched objects 82
+[11/23 13:24:38     37s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:24:38     37s] Total number of fetched objects 82
+[11/23 13:24:38     37s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:24:38     37s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:24:38     37s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:24:38     37s] End delay calculation. (MEM=1472.73 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:24:38     37s] End delay calculation (fullDC). (MEM=1472.73 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:24:38     37s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1472.7M) ***
+[11/23 13:24:38     37s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1472.7M)
+[11/23 13:24:38     37s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[11/23 13:24:38     37s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1472.7M)
+[11/23 13:24:38     37s] Starting SI iteration 2
+[11/23 13:24:38     37s] Calculate early delays in OCV mode...
+[11/23 13:24:38     37s] Calculate late delays in OCV mode...
+[11/23 13:24:38     37s] Calculate late delays in OCV mode...
+[11/23 13:24:38     37s] Calculate early delays in OCV mode...
+[11/23 13:24:38     37s] Start delay calculation (fullDC) (1 T). (MEM=1441.94)
+[11/23 13:24:38     37s] End AAE Lib Interpolated Model. (MEM=1441.94 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:24:38     38s] Glitch Analysis: View bc -- Total Number of Nets Skipped = 0. 
+[11/23 13:24:38     38s] Glitch Analysis: View bc -- Total Number of Nets Analyzed = 0. 
+[11/23 13:24:38     38s] Total number of fetched objects 82
+[11/23 13:24:38     38s] AAE_INFO-618: Total number of nets in the design is 84,  1.2 percent of the nets selected for SI analysis
+[11/23 13:24:38     38s] Glitch Analysis: View wc -- Total Number of Nets Skipped = 0. 
+[11/23 13:24:38     38s] Glitch Analysis: View wc -- Total Number of Nets Analyzed = 82. 
+[11/23 13:24:38     38s] Total number of fetched objects 82
+[11/23 13:24:38     38s] AAE_INFO-618: Total number of nets in the design is 84,  3.6 percent of the nets selected for SI analysis
+[11/23 13:24:38     38s] End delay calculation. (MEM=1489.14 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:24:38     38s] End delay calculation (fullDC). (MEM=1489.14 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:24:38     38s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1489.1M) ***
+[11/23 13:25:07     41s] <CMD> saveDesign ATM.enc
+[11/23 13:25:07     41s] The in-memory database contained RC information but was not saved. To save 
+[11/23 13:25:07     41s] the RC information, use saveDesign's -rc option. Note: Saving RC information can be quite large, 
+[11/23 13:25:07     41s] so it should only be saved when it is really desired.
+[11/23 13:25:07     41s] #% Begin save design ... (date=11/23 13:25:07, mem=1128.9M)
+[11/23 13:25:07     41s] % Begin Save ccopt configuration ... (date=11/23 13:25:07, mem=1130.9M)
+[11/23 13:25:07     41s] % End Save ccopt configuration ... (date=11/23 13:25:07, total cpu=0:00:00.0, real=0:00:00.0, peak res=1132.3M, current mem=1132.3M)
+[11/23 13:25:07     41s] % Begin Save netlist data ... (date=11/23 13:25:07, mem=1132.3M)
+[11/23 13:25:07     41s] Writing Binary DB to ATM.enc.dat/ATM.v.bin in single-threaded mode...
+[11/23 13:25:07     41s] % End Save netlist data ... (date=11/23 13:25:07, total cpu=0:00:00.0, real=0:00:00.0, peak res=1132.7M, current mem=1132.7M)
+[11/23 13:25:07     41s] Saving symbol-table file ...
+[11/23 13:25:08     41s] Saving congestion map file ATM.enc.dat/ATM.route.congmap.gz ...
+[11/23 13:25:08     41s] % Begin Save AAE data ... (date=11/23 13:25:08, mem=1133.3M)
+[11/23 13:25:08     41s] Saving AAE Data ...
+[11/23 13:25:08     41s] % End Save AAE data ... (date=11/23 13:25:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1133.3M, current mem=1133.3M)
+[11/23 13:25:08     41s] Saving preference file ATM.enc.dat/gui.pref.tcl ...
+[11/23 13:25:08     41s] Saving mode setting ...
+[11/23 13:25:08     41s] Saving global file ...
+[11/23 13:25:08     41s] % Begin Save floorplan data ... (date=11/23 13:25:08, mem=1133.6M)
+[11/23 13:25:08     41s] Saving floorplan file ...
+[11/23 13:25:08     41s] % End Save floorplan data ... (date=11/23 13:25:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1134.0M, current mem=1134.0M)
+[11/23 13:25:08     41s] Saving PG file ATM.enc.dat/ATM.pg.gz, version#2, (Created by Innovus v20.14-s095_1 on Sat Nov 23 13:25:08 2024)
+[11/23 13:25:08     41s] *** Completed savePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1399.7M) ***
+[11/23 13:25:08     41s] Saving Drc markers ...
+[11/23 13:25:08     41s] ... No Drc file written since there is no markers found.
+[11/23 13:25:08     41s] % Begin Save placement data ... (date=11/23 13:25:08, mem=1134.1M)
+[11/23 13:25:08     41s] ** Saving stdCellPlacement_binary (version# 2) ...
+[11/23 13:25:08     41s] Save Adaptive View Pruning View Names to Binary file
+[11/23 13:25:08     41s] *** Completed savePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1402.7M) ***
+[11/23 13:25:08     41s] % End Save placement data ... (date=11/23 13:25:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1134.1M, current mem=1134.1M)
+[11/23 13:25:08     41s] % Begin Save routing data ... (date=11/23 13:25:08, mem=1134.1M)
+[11/23 13:25:08     41s] Saving route file ...
+[11/23 13:25:08     41s] *** Completed saveRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1399.7M) ***
+[11/23 13:25:08     41s] % End Save routing data ... (date=11/23 13:25:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1134.3M, current mem=1134.3M)
+[11/23 13:25:08     41s] Saving property file ATM.enc.dat/ATM.prop
+[11/23 13:25:08     41s] *** Completed saveProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1402.7M) ***
+[11/23 13:25:08     41s] #Saving pin access data to file ATM.enc.dat/ATM.apa ...
+[11/23 13:25:08     41s] Saving preRoute extracted patterns in file 'ATM.enc.dat/ATM.techData.gz' ...
+[11/23 13:25:08     41s] Saving preRoute extraction data in directory 'ATM.enc.dat/extraction/' ...
+[11/23 13:25:08     41s] Checksum of RCGrid density data::108
+[11/23 13:25:08     41s] % Begin Save power constraints data ... (date=11/23 13:25:08, mem=1136.6M)
+[11/23 13:25:08     41s] % End Save power constraints data ... (date=11/23 13:25:08, total cpu=0:00:00.0, real=0:00:00.0, peak res=1136.7M, current mem=1136.7M)
+[11/23 13:25:08     41s] Generated self-contained design ATM.enc.dat
+[11/23 13:25:08     41s] #% End save design ... (date=11/23 13:25:08, total cpu=0:00:00.3, real=0:00:01.0, peak res=1140.3M, current mem=1140.3M)
+[11/23 13:25:08     41s] *** Message Summary: 0 warning(s), 0 error(s)
+[11/23 13:25:08     41s] 
+[11/23 13:25:33     44s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Sat Nov 23 13:25:33 2024
+  Total CPU time:     0:00:46
+  Total real time:    0:04:29
+  Peak memory (main): 1170.96MB
+
+[11/23 13:25:33     44s] 
+[11/23 13:25:33     44s] *** Memory Usage v#1 (Current mem = 1463.184M, initial mem = 284.301M) ***
+[11/23 13:25:33     44s] 
+[11/23 13:25:33     44s] *** Summary of all messages that are not suppressed in this session:
+[11/23 13:25:33     44s] Severity  ID               Count  Summary                                  
+[11/23 13:25:33     44s] WARNING   IMPLF-151           41  The viaRule '%s' has been defined, the c...
+[11/23 13:25:33     44s] WARNING   IMPLF-155            9  ViaRule only supports routing/cut layer,...
+[11/23 13:25:33     44s] WARNING   IMPLF-58           487  MACRO '%s' has been found in the databas...
+[11/23 13:25:33     44s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[11/23 13:25:33     44s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[11/23 13:25:33     44s] ERROR     IMPLF-223          103  The LEF via '%s' has been defined and fo...
+[11/23 13:25:33     44s] WARNING   IMPLF-105            4  The layer '%s' specified in SAMENET spac...
+[11/23 13:25:33     44s] WARNING   IMPLF-119           27  LAYER '%s' has been found in the databas...
+[11/23 13:25:33     44s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[11/23 13:25:33     44s] ERROR     IMPSYT-6967          2  %s                                       
+[11/23 13:25:33     44s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[11/23 13:25:33     44s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[11/23 13:25:33     44s] ERROR     IMPTCM-48            1  "%s" is not a legal option for command "...
+[11/23 13:25:33     44s] WARNING   SDF-808              1  The software is currently operating in a...
+[11/23 13:25:33     44s] *** Message Summary: 1534 warning(s), 106 error(s)
+[11/23 13:25:33     44s] 
+[11/23 13:25:33     44s] --- Ending "Innovus" (totcpu=0:00:44.5, real=0:04:22, mem=1463.2M) ---

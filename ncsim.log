@@ -1,0 +1,46 @@
+ncsim(64): 15.20-s086: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm testbench.account_locked testbench.amount_input testbench.biometric_authenticated testbench.change_pin_request testbench.clk testbench.inactivity_timeout testbench.new_pin testbench.pin_change_success testbench.pin_input testbench.reset testbench.timeout_error testbench.transaction_error testbench.transaction_success
+Created probe 1
+ncsim> run
+Test 1: Success = 1, Error = 0
+Test 2: Account Locked = 0, Error = 1
+Test 3: Success = 0, Error = 1
+Test 4: Success = 0, Error = 1
+Test 5: Timeout Error = 0, Success = 0
+Test 6: PIN Change Success = 0, Error = 1
+Test 7: Success = 0, Error = 1
+Test 8: Success = 0, Error = 1
+Test 9: PIN Change Success = 0, Error = 1
+Test 9: PIN Change Success = 0, Error = 1
+Test 10: Timeout Error = 0, Success = 0
+Test 11: PIN Change Success = 0, Error = 1
+Test 11: Account Locked = 1, Error = 1
+Test 12: PIN Change Success = 0, Error = 1
+Test 13: Success = 0, Error = 1
+Test 14: Success = 0, Error = 1
+Test 15: Success = 0, Error = 1
+Test 16: Success = 0, Error = 1
+Test 17: PIN Change Success = 1, Error = 0
+Test 18: Timeout Error = 1, Success = 0, Error = 1
+Test 19a: PIN Change Success = 1, Error = 1
+Test 19b: PIN Change Success = 1, Error = 1
+Test 21: PIN Change Success = 0, Error = 1
+Test 22: Timeout Error = 1, Success = 0
+Test 23: Timeout Error = 1
+Test 24: Success = 0, Error = 1
+Test 25: Timeout Error = 1, Account Locked = 0
+Test 26: Success = 0, Error = 1
+Simulation complete via $finish(1) at time 1130 NS + 0
+./ATM_tb.v:296         $finish;
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+ncsim: Memory Usage - 38.6M program + 165.4M data = 204.1M total (207.6M Peak)
+ncsim: CPU Usage - 0.1s system + 0.1s user = 0.2s total (12.2s, 1.4% cpu)

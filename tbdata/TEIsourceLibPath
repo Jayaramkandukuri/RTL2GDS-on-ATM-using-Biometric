@@ -1,0 +1,3 @@
+SOURCE=ATM_netlist_dft.v
+TECHLIB=/home/cadence/Documents/Project_05/slow.v
+RUNDIR=/home/cadence/Documents/Project_05/

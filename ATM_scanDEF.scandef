@@ -1,0 +1,30 @@
+VERSION 5.5 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN ATM ;
+
+SCANCHAINS 1 ;
+  - top_chain_seg1_clk_rising 
+    + PARTITION p_clk_rising 
+      MAXBITS 13
+    + START PIN scan_in
+    + FLOATING 
+       account_locked_reg ( IN SI ) ( OUT Q ) 
+       current_pin_reg[0] ( IN SI ) ( OUT Q ) 
+       current_pin_reg[1] ( IN SI ) ( OUT Q ) 
+       current_pin_reg[2] ( IN SI ) ( OUT Q ) 
+       current_pin_reg[3] ( IN SI ) ( OUT Q ) 
+       login_attempts_reg[0] ( IN SI ) ( OUT Q ) 
+       login_attempts_reg[1] ( IN SI ) ( OUT Q ) 
+       login_attempts_reg[2] ( IN SI ) ( OUT Q ) 
+       login_attempts_reg[3] ( IN SI ) ( OUT Q ) 
+       pin_change_success_reg ( IN SI ) ( OUT Q ) 
+       timeout_error_reg ( IN SI ) ( OUT Q ) 
+       transaction_error_reg ( IN SI ) ( OUT Q ) 
+       transaction_success_reg ( IN SI ) ( OUT Q ) 
+    + STOP PIN scan_out
+;
+
+END SCANCHAINS 
+END DESIGN 

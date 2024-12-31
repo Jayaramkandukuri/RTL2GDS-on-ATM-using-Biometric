@@ -1,0 +1,1281 @@
+[11/23 13:25:59      0s] 
+[11/23 13:25:59      0s] Cadence Tempus(TM) Timing Signoff Solution.
+[11/23 13:25:59      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[11/23 13:25:59      0s] 
+[11/23 13:25:59      0s] Version:	v20.20-p001_1, built Wed Dec 2 16:07:28 PST 2020
+[11/23 13:25:59      0s] Options:	
+[11/23 13:25:59      0s] Date:		Sat Nov 23 13:25:59 2024
+[11/23 13:25:59      0s] Host:		cadencesys3 (x86_64 w/Linux 3.10.0-1160.el7.x86_64) (8cores*16cpus*Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 16384KB)
+[11/23 13:25:59      0s] OS:		Red Hat Enterprise Linux Server release 7.9 (Maipo)
+[11/23 13:25:59      0s] 
+[11/23 13:25:59      0s] License:
+[11/23 13:25:59      0s] 		tpsxl	Tempus Timing Signoff Solution XL	20.2	checkout succeeded
+[11/23 13:25:59      0s] 		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+[11/23 13:26:10      7s] @(#)CDS: Tempus Timing Signoff Solution v20.20-p001_1 (64bit) 12/02/2020 16:07 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/23 13:26:10      7s] @(#)CDS: NanoRoute 20.20-p001_1 NR200917-0125/MT (database version 18.20.530) {superthreading v2.11}
+[11/23 13:26:10      7s] @(#)CDS: AAE 20.20-p005 (64bit) 12/02/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[11/23 13:26:10      7s] @(#)CDS: CTE 20.20-p010_1 () Dec  2 2020 14:35:30 ( )
+[11/23 13:26:10      7s] @(#)CDS: SYNTECH 20.20-p001_1 () Nov 24 2020 02:28:20 ( )
+[11/23 13:26:10      7s] @(#)CDS: CPE v20.20-p009
+[11/23 13:26:10      7s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[11/23 13:26:10      7s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[11/23 13:26:10      7s] @(#)CDS: RCDB 11.15.0
+[11/23 13:26:10      7s] @(#)CDS: STYLUS 21.10-d018_1 (08/28/2020 09:14 PDT)
+[11/23 13:26:10      7s] Change the soft stacksize limit to 0.2%RAM (31 mbytes). Set global soft_stack_size_limit to change the value.
+[11/23 13:26:10      7s] **INFO: (TMPDIR-1001): The environment variable TMPDIR is not set.
+Create and set the environment variable TMPDIR to '/tmp/ssv_tmpdir_6269_vsjL7Z'.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_6269_vsjL7Z'.
+[11/23 13:27:34     17s] <CMD> read_design -physical_data ATM.enc.dat/ ATM
+[11/23 13:27:34     17s] # Tempus Timing Signoff Solution 20.20-p001_1
+[11/23 13:27:34     17s] # read_design
+[11/23 13:27:34     17s] #  -physical_data 1
+[11/23 13:27:34     17s] #  dir ATM.enc.dat/ ATM
+[11/23 13:27:34     17s] Set Default Input Pin Transition as 0.1 ps.
+[11/23 13:27:34     17s] **WARN: (IMPSYC-141):	You have set -timerMode to 1 so the setting in the config file will be ignored.
+[11/23 13:27:34     17s] Loading design 'ATM' saved by 'Innovus' '20.14-s095_1' on 'Sat Nov 23 13:25:08 2024'.
+[11/23 13:27:34     17s] #% Begin Load MMMC data ... (date=11/23 13:27:34, mem=578.2M)
+[11/23 13:27:34     17s] Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+[11/23 13:27:34     17s] #% End Load MMMC data ... (date=11/23 13:27:34, total cpu=0:00:00.0, real=0:00:00.0, peak res=578.4M, current mem=578.4M)
+[11/23 13:27:34     17s] 
+[11/23 13:27:34     17s] Loading LEF file /home/cadence/Documents/Project_05/ATM.enc.dat/libs/lef/gsclib090_translated_ref.lef ...
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POv', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFF', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PSUB', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PIMP', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NIMP', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_NWELL', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_PO', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_DIFFc', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-155):	ViaRule only supports routing/cut layer, but poly layer found for viaRule 'M1_POLYc', 
+[11/23 13:27:34     17s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[11/23 13:27:34     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:27:34     17s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[11/23 13:27:34     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:27:34     17s] Set DBUPerIGU to M2 pitch 580.
+[11/23 13:27:34     17s] 
+[11/23 13:27:34     17s] Loading LEF file /home/cadence/Documents/Project_05/ATM.enc.dat/libs/lef/gsclib090_translated.lef ...
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Oxide' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Poly' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Nhvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Nimp' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Phvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Pimp' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Nzvt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'SiProt' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Cont' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Via1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Via2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Via3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Via4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Via5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-119):	LAYER 'Metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (EMS-62):	Message <IMPLF-119> has exceeded the default message display limit of 20.
+[11/23 13:27:34     17s] To avoid this warning, increase the display limit per unique message by
+[11/23 13:27:34     17s] using the set_message -limit <number> command.
+[11/23 13:27:34     17s] The message limit can be removed by using the set_message -no_limit command.
+[11/23 13:27:34     17s] Note that setting a very large number using the set_message -limit command
+[11/23 13:27:34     17s] or removing the message limit using the set_message -no_limit command can
+[11/23 13:27:34     17s] significantly increase the log file size.
+[11/23 13:27:34     17s] To suppress a message, use the set_message -suppress command.
+[11/23 13:27:34     17s] **ERROR: (IMPLF-223):	The LEF via 'VIA1X' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1V' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1H' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1XR90' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_E' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_W' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_N' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2CUT_S' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA1_2X2CUT' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2X' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2H' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2V' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2XR90' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS_S' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2TOS_N' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_N' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_S' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_E' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**ERROR: (IMPLF-223):	The LEF via 'VIA2_2CUT_W' definition already exists in the database. The current definition will be ignored. Ensure that you have not specified duplicate LEF files or LEF files with duplicate via definition.
+**WARN: (EMS-62):	Message <IMPLF-223> has exceeded the default message display limit of 20.
+[11/23 13:27:34     17s] To avoid this warning, increase the display limit per unique message by
+[11/23 13:27:34     17s] using the set_message -limit <number> command.
+[11/23 13:27:34     17s] The message limit can be removed by using the set_message -no_limit command.
+[11/23 13:27:34     17s] Note that setting a very large number using the set_message -limit command
+[11/23 13:27:34     17s] or removing the message limit using the set_message -no_limit command can
+[11/23 13:27:34     17s] significantly increase the log file size.
+[11/23 13:27:34     17s] To suppress a message, use the set_message -suppress command.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA1ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA2ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA3ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA4ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA5ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA6ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA7ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'VIA8ARRAY' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M9_M8v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M8_M7v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M7_M6v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M6_M5v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M5_M4v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M4_M3v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M3_M2v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M2_M1v' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M1_POv' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M1_DIFF' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M1_PSUB' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (IMPLF-151):	The viaRule 'M1_PIMP' has been defined, the content will be skipped.
+[11/23 13:27:34     17s] **WARN: (EMS-62):	Message <IMPLF-151> has exceeded the default message display limit of 20.
+[11/23 13:27:34     17s] To avoid this warning, increase the display limit per unique message by
+[11/23 13:27:34     17s] using the set_message -limit <number> command.
+[11/23 13:27:34     17s] The message limit can be removed by using the set_message -no_limit command.
+[11/23 13:27:34     17s] Note that setting a very large number using the set_message -limit command
+[11/23 13:27:34     17s] or removing the message limit using the set_message -no_limit command can
+[11/23 13:27:34     17s] significantly increase the log file size.
+[11/23 13:27:34     17s] To suppress a message, use the set_message -suppress command.
+[11/23 13:27:34     17s] **WARN: (IMPLF-105):	The layer 'Oxide' specified in SAMENET spacing
+[11/23 13:27:34     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:27:34     17s] **WARN: (IMPLF-105):	The layer 'Poly' specified in SAMENET spacing
+[11/23 13:27:34     17s] rule is neither a routing layer nor a cut layer. The rule is ignored.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'OAI2BB1X4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'OA22X2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'NAND3X8' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'SDFFRX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'TLATSRX1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'OAI2BB1X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'DLY4X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'ADDFX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'CLKAND2X12' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'MXI3XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'NAND3X6' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'SDFFRX2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'MX3X1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'SDFFSRHQX1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'OAI33XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'TLATSRX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'DFFHQX4' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'AOI221X2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'ADDFX2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (IMPLF-58):	MACRO 'AOI22XL' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[11/23 13:27:34     17s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     17s] **WARN: (EMS-62):	Message <IMPLF-58> has exceeded the default message display limit of 20.
+[11/23 13:27:34     17s] To avoid this warning, increase the display limit per unique message by
+[11/23 13:27:34     17s] using the set_message -limit <number> command.
+[11/23 13:27:34     17s] The message limit can be removed by using the set_message -no_limit command.
+[11/23 13:27:34     17s] Note that setting a very large number using the set_message -limit command
+[11/23 13:27:34     17s] or removing the message limit using the set_message -no_limit command can
+[11/23 13:27:34     17s] significantly increase the log file size.
+[11/23 13:27:34     17s] To suppress a message, use the set_message -suppress command.
+[11/23 13:27:34     18s] **WARN: (IMPLF-61):	487 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[11/23 13:27:34     18s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[11/23 13:27:34     18s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[11/23 13:27:34     18s] 
+[11/23 13:27:34     18s] viaInitial starts at Sat Nov 23 13:27:34 2024
+viaInitial ends at Sat Nov 23 13:27:34 2024
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+[11/23 13:27:34     18s] Loading view definition file from /home/cadence/Documents/Project_05/ATM.enc.dat/viewDefinition.tcl
+[11/23 13:27:34     18s] Reading fast timing library '/home/installs/FOUNDRY/digital/90nm/dig/lib/fast.lib' ...
+[11/23 13:27:35     18s] Read 479 cells in library 'fast' 
+[11/23 13:27:35     18s] Reading slow timing library '/home/installs/FOUNDRY/digital/90nm/dig/lib/slow.lib' ...
+[11/23 13:27:35     18s] Read 479 cells in library 'slow' 
+[11/23 13:27:35     18s] Ending "PreSetAnalysisView" (total cpu=0:00:00.6, real=0:00:01.0, peak res=689.7M, current mem=634.3M)
+[11/23 13:27:35     18s] *** End library_loading (cpu=0.01min, real=0.02min, mem=13.0M, fe_cpu=0.31min, fe_real=1.60min, fe_mem=754.7M) ***
+[11/23 13:27:35     18s] #% Begin Load netlist data ... (date=11/23 13:27:35, mem=634.3M)
+[11/23 13:27:35     18s] *** Begin netlist parsing (mem=754.7M) ***
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X1' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[11/23 13:27:35     18s] **WARN: (EMS-62):	Message <IMPVL-159> has exceeded the default message display limit of 20.
+[11/23 13:27:35     18s] To avoid this warning, increase the display limit per unique message by
+[11/23 13:27:35     18s] using the set_message -limit <number> command.
+[11/23 13:27:35     18s] The message limit can be removed by using the set_message -no_limit command.
+[11/23 13:27:35     18s] Note that setting a very large number using the set_message -limit command
+[11/23 13:27:35     18s] or removing the message limit using the set_message -no_limit command can
+[11/23 13:27:35     18s] significantly increase the log file size.
+[11/23 13:27:35     18s] To suppress a message, use the set_message -suppress command.
+[11/23 13:27:35     18s] Reading verilogBinary netlist '/home/cadence/Documents/Project_05/ATM.enc.dat/ATM.v.bin'
+[11/23 13:27:35     18s] 
+[11/23 13:27:35     18s] *** Memory Usage v#1 (Current mem = 902.730M, initial mem = 299.699M) ***
+[11/23 13:27:35     18s] *** End netlist parsing (cpu=0:00:00.0, real=0:00:00.0, mem=902.7M) ***
+[11/23 13:27:35     18s] #% End Load netlist data ... (date=11/23 13:27:35, total cpu=0:00:00.2, real=0:00:00.0, peak res=736.1M, current mem=724.2M)
+[11/23 13:27:35     18s] Top level cell is ATM.
+[11/23 13:27:35     18s] Ending "BindLib:" (total cpu=0:00:00.0, real=0:00:00.0, peak res=759.6M, current mem=759.6M)
+[11/23 13:27:35     18s] Building hierarchical netlist for Cell ATM ...
+[11/23 13:27:35     18s] *** Netlist is unique.
+[11/23 13:27:35     18s] Setting Std. cell height to 5220 DBU (smallest netlist inst).
+[11/23 13:27:35     18s] ** info: there are 967 modules.
+[11/23 13:27:35     18s] ** info: there are 58 stdCell insts.
+[11/23 13:27:35     18s] 
+[11/23 13:27:35     18s] *** Memory Usage v#1 (Current mem = 1105.688M, initial mem = 299.699M) ***
+[11/23 13:27:35     18s] *info: set bottom ioPad orient R0
+[11/23 13:27:35     18s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[11/23 13:27:35     18s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[11/23 13:27:35     18s] Horizontal Layer M1 offset = 290 (derived)
+[11/23 13:27:35     18s] Vertical Layer M2 offset = 290 (derived)
+[11/23 13:27:35     18s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/23 13:27:35     18s] Set Default Net Delay as 1000 ps.
+[11/23 13:27:35     18s] Set Default Net Load as 0.5 pF. 
+[11/23 13:27:35     18s] Set Default Input Pin Transition as 0.1 ps.
+[11/23 13:27:35     19s] Loading preference file /home/cadence/Documents/Project_05/ATM.enc.dat/gui.pref.tcl ...
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'ConstraintUserXGrid' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'ConstraintUserYGrid' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'ConstraintUserXOffset' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'ConstraintUserYOffset' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'SnapAllCorners' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'UserGridUnit' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'MinFPModuleSize' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'MinFlightLineWidth' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'MaxFlightLineNetTerms' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'LevelFlight' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'DirectionSink' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'DirectionSource' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'ShowNumberBlockConnection' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'StrecthRestriction' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'StretchRectilinear' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'MoveRestriction' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'DisplayRelFPlan' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'LegalizeMacro' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'DisplayFPlanFlightLine' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (UI-156):	preference name 'DisplayPinName' is not supported in Tempus Timing Signoff Solution.
+[11/23 13:27:35     19s] **WARN: (EMS-27):	Message (UI-156) has exceeded the current message display limit of 20.
+[11/23 13:27:35     19s] To increase the message display limit, refer to the product command reference manual.
+[11/23 13:27:35     19s] **WARN: (IMPSYC-6134):	Setting analysis mode to setup does not have any impact on timing analysis as simultaneous setup/hold mode analysis is on. Use '-late' option to report setup timing reports.
+[11/23 13:27:35     19s] #WARNING (NRIF-90) Option setNanoRouteMode -routeBottomRoutingLayer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -bottomRoutingLayer instead.
+[11/23 13:27:35     19s] #WARNING (NRIF-91) Option setNanoRouteMode -routeTopRoutingLayer is obsolete. It will continue to work for the current release. To ensure compatibility with future releases, use option setDesignMode -topRoutingLayer instead.
+[11/23 13:27:35     19s] AAE_INFO: switching -siAware from false to true ...
+[11/23 13:27:35     19s] addRing command will ignore shorts while creating rings.
+[11/23 13:27:35     19s] addRing command will disallow rings to go over rows.
+[11/23 13:27:35     19s] addRing command will consider rows while creating rings.
+[11/23 13:27:35     19s] The ring targets are set to core/block ring wires.
+[11/23 13:27:35     19s] addStripe will allow jog to connect padcore ring and block ring.
+[11/23 13:27:35     19s] 
+[11/23 13:27:35     19s] Stripes will not extend to closest target.
+[11/23 13:27:35     19s] When breaking rings, the power planner will consider the existence of blocks.
+[11/23 13:27:35     19s] addStripe will break automatically at non-default domains when generating global stripes over the core area or default domain.
+[11/23 13:27:35     19s] The entire stripe set will break at the domain if one of the nets is not in the domain.
+[11/23 13:27:35     19s] Stripes will not be created over regions without power planning wires.
+[11/23 13:27:35     19s] Offset for stripe breaking is set to 0.
+[11/23 13:27:35     19s] Stripes will stop at the boundary of the specified area.
+[11/23 13:27:35     19s] The power planner will set stripe antenna targets to none (no trimming allowed).
+[11/23 13:27:35     19s] Change floorplan default-technical-site to 'gsclib090site'.
+[11/23 13:27:35     19s] Extraction setup Delayed 
+[11/23 13:27:35     19s] Ending "SetAnalysisView" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1073.3M, current mem=814.8M)
+[11/23 13:27:35     19s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[11/23 13:27:35     19s] Creating Cell Server ...(0, 1, 1, 1)
+[11/23 13:27:35     19s] Summary for sequential cells identification: 
+[11/23 13:27:35     19s]   Identified SBFF number: 112
+[11/23 13:27:35     19s]   Identified MBFF number: 0
+[11/23 13:27:35     19s]   Identified SB Latch number: 0
+[11/23 13:27:35     19s]   Identified MB Latch number: 0
+[11/23 13:27:35     19s]   Not identified SBFF number: 8
+[11/23 13:27:35     19s]   Not identified MBFF number: 0
+[11/23 13:27:35     19s]   Not identified SB Latch number: 0
+[11/23 13:27:35     19s]   Not identified MB Latch number: 0
+[11/23 13:27:35     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:35     19s] Total number of combinational cells: 317
+[11/23 13:27:35     19s] Total number of sequential cells: 152
+[11/23 13:27:35     19s] Total number of tristate cells: 10
+[11/23 13:27:35     19s] Total number of level shifter cells: 0
+[11/23 13:27:35     19s] Total number of power gating cells: 0
+[11/23 13:27:35     19s] Total number of isolation cells: 0
+[11/23 13:27:35     19s] Total number of power switch cells: 0
+[11/23 13:27:35     19s] Total number of pulse generator cells: 0
+[11/23 13:27:35     19s] Total number of always on buffers: 0
+[11/23 13:27:35     19s] Total number of retention cells: 0
+[11/23 13:27:35     19s] List of usable buffers: BUFX2 BUFX12 BUFX16 BUFX20 CLKBUFX2 BUFX3 BUFX4 BUFX6 BUFX8 CLKBUFX12 CLKBUFX16 CLKBUFX20 CLKBUFX3 CLKBUFX4 CLKBUFX6 CLKBUFX8
+[11/23 13:27:35     19s] Total number of usable buffers: 16
+[11/23 13:27:35     19s] List of unusable buffers:
+[11/23 13:27:35     19s] Total number of unusable buffers: 0
+[11/23 13:27:35     19s] List of usable inverters: CLKINVX1 CLKINVX2 CLKINVX12 CLKINVX16 CLKINVX20 CLKINVX3 CLKINVX4 CLKINVX6 CLKINVX8 INVX1 INVX2 INVX12 INVX16 INVX20 INVXL INVX3 INVX4 INVX6 INVX8
+[11/23 13:27:35     19s] Total number of usable inverters: 19
+[11/23 13:27:35     19s] List of unusable inverters:
+[11/23 13:27:35     19s] Total number of unusable inverters: 0
+[11/23 13:27:35     19s] List of identified usable delay cells: DLY1X1 DLY1X4 DLY2X1 DLY2X4 DLY3X1 DLY3X4 DLY4X1 DLY4X4
+[11/23 13:27:35     19s] Total number of identified usable delay cells: 8
+[11/23 13:27:35     19s] List of identified unusable delay cells:
+[11/23 13:27:35     19s] Total number of identified unusable delay cells: 0
+[11/23 13:27:35     19s] Creating Cell Server, finished. 
+[11/23 13:27:35     19s] 
+[11/23 13:27:35     19s] Deleting Cell Server ...
+[11/23 13:27:35     19s] Ending "Cell type marking" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1041.8M, current mem=1041.8M)
+[11/23 13:27:35     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:36     19s] Summary for sequential cells identification: 
+[11/23 13:27:36     19s]   Identified SBFF number: 112
+[11/23 13:27:36     19s]   Identified MBFF number: 0
+[11/23 13:27:36     19s]   Identified SB Latch number: 0
+[11/23 13:27:36     19s]   Identified MB Latch number: 0
+[11/23 13:27:36     19s]   Not identified SBFF number: 8
+[11/23 13:27:36     19s]   Not identified MBFF number: 0
+[11/23 13:27:36     19s]   Not identified SB Latch number: 0
+[11/23 13:27:36     19s]   Not identified MB Latch number: 0
+[11/23 13:27:36     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:36     19s]  Visiting view : bc
+[11/23 13:27:36     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:36     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:36     19s]  Visiting view : wc
+[11/23 13:27:36     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:36     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:36     19s] Creating Cell Server, finished. 
+[11/23 13:27:36     19s] 
+[11/23 13:27:36     19s] Reading floorplan file - /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.fp.gz (mem = 1256.0M).
+[11/23 13:27:36     19s] #% Begin Load floorplan data ... (date=11/23 13:27:36, mem=1042.3M)
+[11/23 13:27:36     19s] *info: reset 84 existing net BottomPreferredLayer and AvoidDetour
+[11/23 13:27:36     19s] Deleting old partition specification.
+[11/23 13:27:36     19s] Set FPlanBox to (0 0 85260 81780)
+[11/23 13:27:36     19s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[11/23 13:27:36     19s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+[11/23 13:27:36     19s] Horizontal Layer M1 offset = 290 (derived)
+[11/23 13:27:36     19s] Vertical Layer M2 offset = 290 (derived)
+[11/23 13:27:36     19s] Generated pitch 0.29 in Metal8 is different from 0.87 defined in technology file in unpreferred direction.
+[11/23 13:27:36     19s]  ... processed partition successfully.
+[11/23 13:27:36     19s] Reading binary special route file /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.fp.spr.gz (Created by Innovus v20.14-s095_1 on Sat Nov 23 13:25:08 2024, version: 1)
+[11/23 13:27:36     19s] Convert 0 swires and 0 svias from compressed groups
+[11/23 13:27:36     19s] 52 swires and 200 svias were compressed
+[11/23 13:27:36     19s] 52 swires and 200 svias were decompressed from small or sparse groups
+[11/23 13:27:36     19s] Ending "Read special route file" (total cpu=0:00:00.0, real=0:00:00.0, peak res=1043.2M, current mem=1043.2M)
+[11/23 13:27:36     19s] Extracting standard cell pins and blockage ...... 
+[11/23 13:27:36     19s] Pin and blockage extraction finished
+[11/23 13:27:36     19s] #% End Load floorplan data ... (date=11/23 13:27:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1056.5M, current mem=1056.5M)
+[11/23 13:27:36     19s] #% Begin Load SymbolTable ... (date=11/23 13:27:36, mem=1056.5M)
+[11/23 13:27:36     19s] #% End Load SymbolTable ... (date=11/23 13:27:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1056.6M, current mem=1056.6M)
+[11/23 13:27:36     19s] Loading place ...
+[11/23 13:27:36     19s] #% Begin Load placement data ... (date=11/23 13:27:36, mem=1056.6M)
+[11/23 13:27:36     19s] Reading placement file - /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.place.gz.
+[11/23 13:27:36     19s] ** Reading stdCellPlacement_binary (Created by Innovus v20.14-s095_1 on Sat Nov 23 13:25:08 2024, version# 2) ...
+[11/23 13:27:36     19s] Read Views for adaptive view pruning ...
+[11/23 13:27:36     19s] Read 0 views from Binary DB for adaptive view pruning
+[11/23 13:27:36     19s] *** Checked 2 GNC rules.
+[11/23 13:27:36     19s] *** applyConnectGlobalNets disabled.
+[11/23 13:27:36     19s] *** Completed restorePlace (cpu=0:00:00.0 real=0:00:00.0 mem=1274.0M) ***
+[11/23 13:27:36     19s] Total net length = 9.015e+02 (4.584e+02 4.431e+02) (ext = 3.889e+02)
+[11/23 13:27:36     19s] #% End Load placement data ... (date=11/23 13:27:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1058.0M, current mem=1058.0M)
+[11/23 13:27:36     19s] Reading PG file /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.pg.gz, version#2, (Created by Innovus v20.14-s095_1 on       Sat Nov 23 13:25:08 2024)
+[11/23 13:27:36     19s] *** Completed restorePGFile (cpu=0:00:00.0 real=0:00:00.0 mem=1271.0M) ***
+[11/23 13:27:36     19s] #% Begin Load routing data ... (date=11/23 13:27:36, mem=1058.1M)
+[11/23 13:27:36     19s] Reading routing file - /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.route.gz.
+[11/23 13:27:36     19s] Reading Innovus routing data (Created by Innovus v20.14-s095_1 on Sat Nov 23 13:25:08 2024 Format: 20.1) ...
+[11/23 13:27:36     19s] *** Total 84 nets are successfully restored.
+[11/23 13:27:36     19s] *** Completed restoreRoute (cpu=0:00:00.0 real=0:00:00.0 mem=1280.0M) ***
+[11/23 13:27:36     19s] #% End Load routing data ... (date=11/23 13:27:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1066.6M, current mem=1066.6M)
+[11/23 13:27:36     19s] Reading property file /home/cadence/Documents/Project_05/ATM.enc.dat/ATM.prop
+[11/23 13:27:36     19s] *** Completed restoreProperty (cpu=0:00:00.0 real=0:00:00.0 mem=1284.0M) ***
+[11/23 13:27:36     19s] Set Default Input Pin Transition as 0.1 ps.
+[11/23 13:27:36     19s] Loading preRoute extraction data from directory '/home/cadence/Documents/Project_05/ATM.enc.dat/extraction/' ...
+[11/23 13:27:36     19s] Restore PreRoute RC Grid meta data successful.
+[11/23 13:27:36     19s] Extraction setup Started 
+[11/23 13:27:36     19s] Summary of Active RC-Corners : 
+[11/23 13:27:36     19s]  
+[11/23 13:27:36     19s]  Analysis View: bc
+[11/23 13:27:36     19s]     RC-Corner Name        : rc
+[11/23 13:27:36     19s]     RC-Corner Index       : 0
+[11/23 13:27:36     19s]     RC-Corner Temperature : 25 Celsius
+[11/23 13:27:36     19s]     RC-Corner Cap Table   : ''
+[11/23 13:27:36     19s]     RC-Corner PostRoute Res Factor        : 1
+[11/23 13:27:36     19s]     RC-Corner PostRoute Cap Factor        : 1
+[11/23 13:27:36     19s]     RC-Corner PostRoute XCap Factor       : 1
+[11/23 13:27:36     19s]     RC-Corner Technology file: '/home/cadence/Documents/Project_05/ATM.enc.dat/libs/mmmc/rc/gpdk090_9l.tch'
+[11/23 13:27:36     19s]  
+[11/23 13:27:36     19s]  Analysis View: wc
+[11/23 13:27:36     19s]     RC-Corner Name        : rc
+[11/23 13:27:36     19s]     RC-Corner Index       : 0
+[11/23 13:27:36     19s]     RC-Corner Temperature : 25 Celsius
+[11/23 13:27:36     19s]     RC-Corner Cap Table   : ''
+[11/23 13:27:36     19s]     RC-Corner PostRoute Res Factor        : 1
+[11/23 13:27:36     19s]     RC-Corner PostRoute Cap Factor        : 1
+[11/23 13:27:36     19s]     RC-Corner PostRoute XCap Factor       : 1
+[11/23 13:27:36     19s]     RC-Corner Technology file: '/home/cadence/Documents/Project_05/ATM.enc.dat/libs/mmmc/rc/gpdk090_9l.tch'
+[11/23 13:27:36     19s] LayerId::1 widthSet size::1
+[11/23 13:27:36     19s] LayerId::2 widthSet size::1
+[11/23 13:27:36     19s] LayerId::3 widthSet size::1
+[11/23 13:27:36     19s] LayerId::4 widthSet size::1
+[11/23 13:27:36     19s] LayerId::5 widthSet size::1
+[11/23 13:27:36     19s] LayerId::6 widthSet size::1
+[11/23 13:27:36     19s] LayerId::7 widthSet size::1
+[11/23 13:27:36     19s] LayerId::8 widthSet size::1
+[11/23 13:27:36     19s] LayerId::9 widthSet size::1
+[11/23 13:27:36     19s] Checksum of RCGrid density data read::(108 108) passed::1
+[11/23 13:27:36     19s] Restore PreRoute RC Grid data successful.
+[11/23 13:27:36     19s] Initializing multi-corner resistance tables ...
+[11/23 13:27:36     19s] ReadRoutingBlockageFactor status::1
+[11/23 13:27:36     19s] Restore PreRoute Blockage data successful.
+[11/23 13:27:36     19s] pesRestorePreRouteExtractionData::readRCGridUnitRC called for corner::rc
+[11/23 13:27:36     19s] RCCorner in design data Name::rc Tech::/home/cadence/Documents/Project_05/ATM.enc.dat/libs/mmmc/rc/gpdk090_9l.tch 25.000000 1.000000 1.000000 
+[11/23 13:27:36     19s] RCCorner in saved data Name::rc Tech::/home/cadence/Documents/Project_05/ATM.innovus.dat/libs/mmmc/rc/gpdk090_9l.tch 25.000000 1.000000 1.000000 
+[11/23 13:27:36     19s] Unit RC read checksum: 324, count: 324, status: 1
+[11/23 13:27:36     19s] Number of RC corner to be extracted::0
+[11/23 13:27:36     19s] Preroute length aware model : n: 40 ; LLS: 2-3 ; HLS: 3-5 ; rDens: 0.000000 ; uaWl: 1.000000 ; uaWlH: 0.103432 ; aWlH: 0.000000 ; Pmax: 0.810600 ; wcR: 0.700000 ; newSi: 0.081700 ; pMod: 83 ; 
+[11/23 13:27:36     19s] Restore PreRoute all RC Grid data successful.#% Begin Load power constraints ... (date=11/23 13:27:36, mem=1069.1M)
+[11/23 13:27:36     19s] #% End Load power constraints ... (date=11/23 13:27:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=1069.5M, current mem=1069.5M)
+[11/23 13:27:36     19s] **WARN: (TCLCMD-1263):	The -frame parameter is obsolete and will be removed from the software in a future release. To ensure compatibility with future releases, remove this parameter from your scripts.
+[11/23 13:27:36     19s] #% Begin load AAE data ... (date=11/23 13:27:36, mem=1097.6M)
+[11/23 13:27:36     19s] **WARN: (IMPESI-3468):	User needs to specify -equivalent_waveform_model propagation first before specifying -waveform_compression_mode accurate|clock_detailed .
+[11/23 13:27:36     19s] AAE DB initialization (MEM=1328.21 CPU=0:00:00.0 REAL=0:00:00.0) 
+[11/23 13:27:36     19s] #% End load AAE data ... (date=11/23 13:27:36, total cpu=0:00:00.2, real=0:00:00.0, peak res=1102.8M, current mem=1102.8M)
+[11/23 13:27:36     19s] Restoring CCOpt config...
+[11/23 13:27:36     19s]   Extracting original clock gating for clk...
+[11/23 13:27:36     19s]     clock_tree clk contains 13 sinks and 0 clock gates.
+[11/23 13:27:36     19s]   Extracting original clock gating for clk done.
+[11/23 13:27:36     19s]   The skew group clk/conc was created. It contains 13 sinks and 1 sources.
+[11/23 13:27:36     19s] Restoring CCOpt config done.
+[11/23 13:27:36     19s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.14-s095_1. They will be removed in the next release. 
+[11/23 13:27:36     19s] timing_enable_default_delay_arc
+[11/23 13:27:37     19s] Loading  (ATM)
+[11/23 13:27:37     19s] Traverse HInst (ATM)
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Tech dependent Parameter, Build TLibAnalyzer for: cellAreaConsiderPadding
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     19s] Summary for sequential cells identification: 
+[11/23 13:27:37     19s]   Identified SBFF number: 112
+[11/23 13:27:37     19s]   Identified MBFF number: 0
+[11/23 13:27:37     19s]   Identified SB Latch number: 0
+[11/23 13:27:37     19s]   Identified MB Latch number: 0
+[11/23 13:27:37     19s]   Not identified SBFF number: 8
+[11/23 13:27:37     19s]   Not identified MBFF number: 0
+[11/23 13:27:37     19s]   Not identified SB Latch number: 0
+[11/23 13:27:37     19s]   Not identified MB Latch number: 0
+[11/23 13:27:37     19s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     19s]  Visiting view : bc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s]  Visiting view : wc
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     19s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     19s] Creating Cell Server, finished. 
+[11/23 13:27:37     19s] 
+[11/23 13:27:37     19s] Deleting Cell Server ...
+[11/23 13:27:37     19s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:27:37     20s] Creating Cell Server ...(0, 0, 0, 0)
+[11/23 13:27:37     20s] Summary for sequential cells identification: 
+[11/23 13:27:37     20s]   Identified SBFF number: 112
+[11/23 13:27:37     20s]   Identified MBFF number: 0
+[11/23 13:27:37     20s]   Identified SB Latch number: 0
+[11/23 13:27:37     20s]   Identified MB Latch number: 0
+[11/23 13:27:37     20s]   Not identified SBFF number: 8
+[11/23 13:27:37     20s]   Not identified MBFF number: 0
+[11/23 13:27:37     20s]   Not identified SB Latch number: 0
+[11/23 13:27:37     20s]   Not identified MB Latch number: 0
+[11/23 13:27:37     20s]   Number of sequential cells which are not FFs: 32
+[11/23 13:27:37     20s]  Visiting view : bc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 12.00 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 9.90 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s]  Visiting view : wc
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 35.80 (1.000) with rcCorner = 0
+[11/23 13:27:37     20s]    : PowerDomain = none : Weighted F : unweighted  = 30.30 (1.000) with rcCorner = -1
+[11/23 13:27:37     20s] Creating Cell Server, finished. 
+[11/23 13:27:37     20s] 
+[11/23 13:27:37     20s] Deleting Cell Server ...
+[11/23 13:28:26     25s] <CMD> all_setup_analysis_views
+[11/23 13:28:26     25s] <CMD> all_hold_analysis_views
+[11/23 13:28:26     25s] <CMD> all_setup_analysis_views
+[11/23 13:28:26     25s] <CMD> all_hold_analysis_views
+[11/23 13:28:26     25s] **WARN: (IMPSYC-3133):	The unloadTimingCon command is not supported in the MMMC environment.
+[11/23 13:28:26     25s]           To modify the active set of constraints you can use one of the following means:
+[11/23 13:28:26     25s]           - Use the set_analysis_view command to change the set of active views.
+[11/23 13:28:26     25s]           - Use the update_analysis_view command to change the constraint mode associated with an active view.
+[11/23 13:28:26     25s]           - Use the update_constraint_mode command to change the set of SDC files pointed to be active modes.
+[11/23 13:28:26     25s] <CMD> all_setup_analysis_views
+[11/23 13:28:26     25s] <CMD> all_hold_analysis_views
+[11/23 13:28:26     25s] <CMD> all_setup_analysis_views
+[11/23 13:28:26     25s] <CMD> all_hold_analysis_views
+[11/23 13:28:26     25s] **WARN: (IMPSYC-3133):	The unloadTimingCon command is not supported in the MMMC environment.
+[11/23 13:28:26     25s]           To modify the active set of constraints you can use one of the following means:
+[11/23 13:28:26     25s]           - Use the set_analysis_view command to change the set of active views.
+[11/23 13:28:26     25s]           - Use the update_analysis_view command to change the constraint mode associated with an active view.
+[11/23 13:28:26     25s]           - Use the update_constraint_mode command to change the set of SDC files pointed to be active modes.
+[11/23 13:28:39     27s] <CMD> read_sdf ATM.sdf
+[11/23 13:28:39     27s] **WARN: (TCLCMD-1234):	In multi-mode, multi-corner analysis mode, you should include the -view option with the read_sdf command to annotate the SDF file to specific view(s). Without the -view option, the SDF file will only be annotated to the current default view.
+[11/23 13:28:54     29s] <CMD> read_spef ATM.spef
+[11/23 13:28:54     29s] Used active corner rc for reading SPEF file as option '-rc_corner <cornerName>' is not specified in MMMC mode.
+[11/23 13:28:54     29s] read_spef Option :  ATM.spef -noStarN 
+[11/23 13:28:54     29s] 
+[11/23 13:28:54     29s] SPEF files for RC Corner rc:
+[11/23 13:28:54     29s] Top-level spef file 'ATM.spef'.
+[11/23 13:28:54     29s] Start spef parsing (MEM=1524.65).
+[11/23 13:28:54     29s] Number of corners: 1
+[11/23 13:28:54     29s] Number of parallel threads processing the nets is: 1
+[11/23 13:28:54     29s] Maximum backlog used in parser: 50.
+[11/23 13:28:54     29s] Reading multiple SPEF files in parallel.
+[11/23 13:28:54     29s] RCDB /tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d Creation Started (CPU Time= 0:00:00.0  MEM= 1532.7M)
+[11/23 13:28:54     29s] Creating parasitic data file '/tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d' for storing RC.
+[11/23 13:28:54     29s] SPEF file ATM.spef.
+[11/23 13:28:54     29s] Number of Resistors     : 374
+[11/23 13:28:54     29s] Number of Ground Caps   : 454
+[11/23 13:28:54     29s] Number of Coupling Caps : 2
+[11/23 13:28:54     29s] 
+[11/23 13:28:54     29s] RCDB /tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d Creation Completed (CPU Time= 0:00:00.1  MEM= 1584.7M)
+[11/23 13:28:54     29s] End spef parsing (MEM=1552.66 CPU=0:00:00.1 REAL=0:00:00.0).
+[11/23 13:28:54     29s] Spef for RC Corner 'rc' was previously specified. Dropping the previous specification.
+[11/23 13:28:54     29s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1544.664M)
+[11/23 13:28:54     29s] Opening parasitic data file '/tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d' for reading (mem: 1544.664M)
+[11/23 13:28:54     29s] Closing parasitic data file '/tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d': 0 access done (mem: 1544.664M)
+[11/23 13:28:54     29s] Lumped Parasitic Loading Completed (total cpu=0:00:00.1, real=0:00:00.0, current mem=1544.664M)
+[11/23 13:28:58     30s] <CMD> read_sdf ATM.sdf
+[11/23 13:28:58     30s] **WARN: (TCLCMD-1234):	In multi-mode, multi-corner analysis mode, you should include the -view option with the read_sdf command to annotate the SDF file to specific view(s). Without the -view option, the SDF file will only be annotated to the current default view.
+[11/23 13:29:06     31s] -checkType setup                           # enums={setup hold}, default=setup, user setting
+[11/23 13:29:10     31s] <CMD> get_time_unit
+[11/23 13:29:10     31s] <CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+[11/23 13:29:10     31s] Starting SI iteration 1 using Infinite Timing Windows
+[11/23 13:29:10     31s] #################################################################################
+[11/23 13:29:10     31s] # Design Name: ATM
+[11/23 13:29:10     31s] # Design Mode: 65nm
+[11/23 13:29:10     31s] # Analysis Mode: MMMC OCV 
+[11/23 13:29:10     31s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:29:10     31s] # Signoff Settings: SI On 
+[11/23 13:29:10     31s] #################################################################################
+[11/23 13:29:10     31s] AAE_INFO: 1 threads acquired from CTE.
+[11/23 13:29:10     31s] Setting infinite Tws ...
+[11/23 13:29:10     31s] First Iteration Infinite Tw... 
+[11/23 13:29:10     31s] Topological Sorting (REAL = 0:00:00.0, MEM = 1409.3M, InitMEM = 1409.3M)
+[11/23 13:29:10     31s] Start delay calculation (fullDC) (1 T). (MEM=1409.34)
+[11/23 13:29:10     31s] Start AAE Lib Loading. (MEM=1409.34)
+[11/23 13:29:10     31s] End AAE Lib Loading. (MEM=1409.34 CPU=0:00:00.0 Real=0:00:00.0)
+[11/23 13:29:10     31s] End AAE Lib Interpolated Model. (MEM=1409.34 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:29:10     31s] Opening parasitic data file '/tmp/ssv_tmpdir_6269_vsjL7Z/ATM_6269_x3GWqt.rcdb.d/ATM.rcdb.d' for reading (mem: 1418.879M)
+[11/23 13:29:10     31s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1420.9M)
+[11/23 13:29:11     31s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:29:11     31s] AAE_INFO-618: Total number of nets in the design is 84,  100.0 percent of the nets selected for SI analysis
+[11/23 13:29:11     31s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:29:11     31s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:29:11     31s] End delay calculation. (MEM=1442.56 CPU=0:00:00.0 REAL=0:00:01.0)
+[11/23 13:29:11     31s] End delay calculation (fullDC). (MEM=1434.56 CPU=0:00:00.1 REAL=0:00:01.0)
+[11/23 13:29:11     31s] esiiDumpWaveformsThread is successfull 1 
+[11/23 13:29:11     31s] Save waveform /tmp/ssv_tmpdir_6269_vsjL7Z/.AAE_qpVvzn/.AAE_6269/waveform.data in separate thread...
+[11/23 13:29:11     31s] Finish pthread dumping compressed waveforms.
+[11/23 13:29:11     31s] *** CDM Built up (cpu=0:00:00.2  real=0:00:01.0  mem= 1442.6M) ***
+[11/23 13:29:11     31s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1420.8M)
+[11/23 13:29:11     31s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1420.8M)
+[11/23 13:29:11     31s] Starting SI iteration 2
+[11/23 13:29:11     31s] Start delay calculation (fullDC) (1 T). (MEM=1442.91)
+[11/23 13:29:11     31s] End AAE Lib Interpolated Model. (MEM=1442.91 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:29:11     31s] AAE_INFO-618: Total number of nets in the design is 84,  1.2 percent of the nets selected for SI analysis
+[11/23 13:29:11     31s] AAE_INFO-618: Total number of nets in the design is 84,  2.4 percent of the nets selected for SI analysis
+[11/23 13:29:11     31s] End delay calculation. (MEM=1485.59 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:29:11     31s] End delay calculation (fullDC). (MEM=1485.59 CPU=0:00:00.0 REAL=0:00:00.0)
+[11/23 13:29:11     31s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1485.6M) ***
+[11/23 13:29:11     31s] <CMD> load_timing_debug_report -name default_report top.mtarpt
+[11/23 13:29:11     31s] Parsing file top.mtarpt...
+[11/23 13:29:28     34s] <CMD> all_analysis_views
+[11/23 13:29:28     34s] <CMD> all_setup_analysis_views
+[11/23 13:29:28     34s] <CMD> all_hold_analysis_views
+[11/23 13:29:28     34s] <CMD> get_analysis_view $view -delay_corner
+[11/23 13:29:28     34s] <CMD> get_delay_corner $dc -rc_corner
+[11/23 13:29:31     34s] **ERROR: (IMPQTF-4005):	Cannot find item 'addbufapplyb1' in form 'ecoopt'.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+**ERROR: (IMPQTF-4005):	Cannot find item 'addbufapplyb2' in form 'ecoopt'.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+**ERROR: (IMPQTF-4005):	Cannot find item 'delbufapplyb1' in form 'ecoopt'.This is probably an inner GUI action error.Use direct TCL command instead of GUI interactive.
+<CMD> add_repeater -cell BUFX2 -net inactivity_timeout
+[11/23 13:29:39     35s] #################################################################################
+[11/23 13:29:39     35s] # Design Name: ATM
+[11/23 13:29:39     35s] # Design Mode: 65nm
+[11/23 13:29:39     35s] # Analysis Mode: MMMC OCV 
+[11/23 13:29:39     35s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:29:39     35s] # Signoff Settings: SI On 
+[11/23 13:29:39     35s] #################################################################################
+[11/23 13:29:39     35s] #################################################################################
+[11/23 13:29:39     35s] # Design Name: ATM
+[11/23 13:29:39     35s] # Design Mode: 65nm
+[11/23 13:29:39     35s] # Analysis Mode: MMMC OCV 
+[11/23 13:29:39     35s] # Parasitics Mode: SPEF/RCDB 
+[11/23 13:29:39     35s] # Signoff Settings: SI On 
+[11/23 13:29:39     35s] #################################################################################
+[11/23 13:29:39     35s] ### Creating TopoMgr, started
+[11/23 13:29:39     35s] ### Creating TopoMgr, finished
+[11/23 13:29:39     35s] End AAE Lib Interpolated Model. (MEM=1581.65 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[11/23 13:29:39     35s] **WARN: (IMPOPT-6106):	There is mismatch between RC data and routing for net inactivity_timeout. Rebuilding the RC network for the net; coupling caps will be grounded.
+[11/23 13:29:39     35s] Add inst FE_ECOC0_inactivity_timeout (BUFX2) to drive load g1638__1617/A g1666__2883/B timeout_error_reg/D g1681__7098/A 
+[11/23 13:29:39     35s] OPERPROF: Starting RefinePlaceInit at level 1, MEM:1604.9M
+[11/23 13:29:39     35s] OPERPROF:   Starting DPlace-Init at level 2, MEM:1604.9M
+[11/23 13:29:39     35s] z: 2, totalTracks: 1
+[11/23 13:29:39     35s] z: 4, totalTracks: 1
+[11/23 13:29:39     35s] z: 6, totalTracks: 1
+[11/23 13:29:39     35s] z: 8, totalTracks: 1
+[11/23 13:29:40     35s] # Building ATM llgBox search-tree.
+[11/23 13:29:40     35s] OPERPROF:     Starting spInitSiteArr at level 3, MEM:1604.9M
+[11/23 13:29:40     35s] OPERPROF:       Starting spiInitFpSiteArr at level 4, MEM:1604.9M
+[11/23 13:29:40     35s] Core basic site is gsclib090site
+[11/23 13:29:40     35s] OPERPROF:         Starting spiCheckSiteIfFastDPInitAvailable at level 5, MEM:1604.9M
+[11/23 13:29:40     35s] OPERPROF:         Finished spiCheckSiteIfFastDPInitAvailable at level 5, CPU:0.000, REAL:0.003, MEM:1621.7M
+[11/23 13:29:40     35s] Use non-trimmed site array because memory saving is not enough.
+[11/23 13:29:40     35s] SiteArray: non-trimmed site array dimensions = 11 x 105
+[11/23 13:29:40     35s] SiteArray: use 12,288 bytes
+[11/23 13:29:40     35s] SiteArray: current memory after site array memory allocation 1621.7M
+[11/23 13:29:40     35s] SiteArray: FP blocked sites are writable
+[11/23 13:29:40     35s] Estimated cell power/ground rail width = 0.408 um
+[11/23 13:29:40     35s] Layer info - lib-1st H=1, V=2.  Cell-FPin=1. Top-pin=2
+[11/23 13:29:40     35s] OPERPROF:         Starting RoutingBlockageFromWireViaStBox at level 5, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF:         Finished RoutingBlockageFromWireViaStBox at level 5, CPU:0.000, REAL:0.000, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF:       Finished spiInitFpSiteArr at level 4, CPU:0.020, REAL:0.012, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF:     Finished spInitSiteArr at level 3, CPU:0.020, REAL:0.013, MEM:1621.7M
+[11/23 13:29:40     35s] [CPU] DPlace-Init (cpu=0:00:00.1, real=0:00:01.0, mem=1621.7MB).
+[11/23 13:29:40     35s] OPERPROF:   Finished DPlace-Init at level 2, CPU:0.060, REAL:0.060, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF: Finished RefinePlaceInit at level 1, CPU:0.060, REAL:0.060, MEM:1621.7M
+[11/23 13:29:40     35s] TDRefine: refinePlace mode spiral search
+[11/23 13:29:40     35s] GigaOpt Checkpoint: Intermediate DB Saving Point beforeRefinePlace.6269.1
+[11/23 13:29:40     35s] OPERPROF: Starting RefinePlace at level 1, MEM:1621.7M
+[11/23 13:29:40     35s] *** Starting refinePlace (0:00:35.6 mem=1621.7M) ***
+[11/23 13:29:40     35s] Total net bbox length = 9.047e+02 (4.594e+02 4.453e+02) (ext = 2.672e+02)
+[11/23 13:29:40     35s] Move report: placeLevelShifters moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[11/23 13:29:40     35s] OPERPROF:   Starting RefinePlace2 at level 2, MEM:1621.7M
+[11/23 13:29:40     35s] Starting refinePlace ...
+[11/23 13:29:40     35s] One DDP V2 for no tweak run.
+[11/23 13:29:40     35s] [CPU] RefinePlace/preRPlace (cpu=0:00:00.0, real=0:00:00.0, mem=1621.7MB) @(0:00:35.6 - 0:00:35.6).
+[11/23 13:29:40     35s] Move report: preRPlace moves 0 insts, mean move: 0.00 um, max move: 0.00 um
+[11/23 13:29:40     35s] wireLenOptFixPriorityInst 0 inst fixed
+[11/23 13:29:40     35s] 
+[11/23 13:29:40     35s] Running Spiral with 1 thread in Normal Mode  fetchWidth=8 
+[11/23 13:29:40     35s] Move report: legalization moves 2 insts, mean move: 3.33 um, max move: 4.35 um
+[11/23 13:29:40     35s] 	Max move on inst (g1681__7098): (25.81, 8.70) --> (21.46, 8.70)
+[11/23 13:29:40     35s] [CPU] RefinePlace/Legalization (cpu=0:00:00.0, real=0:00:00.0, mem=1621.7MB) @(0:00:35.6 - 0:00:35.6).
+[11/23 13:29:40     35s] Move report: Detail placement moves 2 insts, mean move: 3.33 um, max move: 4.35 um
+[11/23 13:29:40     35s] 	Max move on inst (g1681__7098): (25.81, 8.70) --> (21.46, 8.70)
+[11/23 13:29:40     35s] 	Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1621.7MB
+[11/23 13:29:40     35s] Statistics of distance of Instance movement in refine placement:
+[11/23 13:29:40     35s]   maximum (X+Y) =         4.35 um
+[11/23 13:29:40     35s]   inst (g1681__7098) with max move: (25.81, 8.7) -> (21.46, 8.7)
+[11/23 13:29:40     35s]   mean    (X+Y) =         3.33 um
+[11/23 13:29:40     35s] Summary Report:
+[11/23 13:29:40     35s] Instances move: 2 (out of 59 movable)
+[11/23 13:29:40     35s] Instances flipped: 0
+[11/23 13:29:40     35s] Mean displacement: 3.33 um
+[11/23 13:29:40     35s] Max displacement: 4.35 um (Instance: g1681__7098) (25.81, 8.7) -> (21.46, 8.7)
+[11/23 13:29:40     35s] 	Length: 4 sites, height: 1 rows, site name: gsclib090site, cell type: NOR2XL
+[11/23 13:29:40     35s] Total instances moved : 2
+[11/23 13:29:40     35s] OPERPROF:   Finished RefinePlace2 at level 2, CPU:0.000, REAL:0.003, MEM:1621.7M
+[11/23 13:29:40     35s] Total net bbox length = 9.128e+02 (4.674e+02 4.454e+02) (ext = 2.678e+02)
+[11/23 13:29:40     35s] Runtime: CPU: 0:00:00.0 REAL: 0:00:00.0 MEM: 1621.7MB
+[11/23 13:29:40     35s] [CPU] RefinePlace/total (cpu=0:00:00.0, real=0:00:00.0, mem=1621.7MB) @(0:00:35.6 - 0:00:35.6).
+[11/23 13:29:40     35s] *** Finished refinePlace (0:00:35.6 mem=1621.7M) ***
+[11/23 13:29:40     35s] GigaOpt Checkpoint: Intermediate DB Saving Point afterRefinePlace.6269.1
+[11/23 13:29:40     35s] OPERPROF: Finished RefinePlace at level 1, CPU:0.010, REAL:0.005, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF: Starting spDPlaceCleanup(partial) at level 1, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF:   Starting spSiteCleanup(false) at level 2, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF:   Finished spSiteCleanup(false) at level 2, CPU:0.000, REAL:0.000, MEM:1621.7M
+[11/23 13:29:40     35s] OPERPROF: Finished spDPlaceCleanup(partial) at level 1, CPU:0.000, REAL:0.001, MEM:1621.7M
+[11/23 13:29:40     35s] <CMD_INTERNAL> redraw
+[11/23 13:29:53     37s] -checkType setup                           # enums={setup hold}, default=setup, user setting
+[11/23 13:30:03     38s] <CMD> get_time_unit
+[11/23 13:30:03     38s] <CMD> report_timing -machine_readable -max_paths 10000 -max_slack 0.75 -path_exceptions all -early > top.mtarpt
+[11/23 13:30:03     38s] <CMD> load_timing_debug_report -name default_report top.mtarpt
+[11/23 13:30:03     38s] Parsing file top.mtarpt...
+[11/23 13:30:41     42s] <CMD> save_design ATM
+[11/23 13:30:41     42s] Save of ccopt config is skipped.
+[11/23 13:30:41     42s] #% Begin Swap out flat objects (date=11/23 13:30:41, mem=1291.2M)
+[11/23 13:30:41     42s] #% End Swap out flat objects (date=11/23 13:30:41, total cpu=0:00:00.0, real=0:00:00.0, peak res=1291.2M, current mem=1291.1M)
+[11/23 13:30:41     42s] #% Begin Save netlist data ... (date=11/23 13:30:41, mem=1291.1M)
+[11/23 13:30:41     42s] Writing Binary DB to ATM.dat/ATM.v.bin in single-threaded mode...
+[11/23 13:30:41     42s] #% End Save netlist data ... (date=11/23 13:30:41, total cpu=0:00:00.1, real=0:00:00.0, peak res=1319.2M, current mem=1291.0M)
+[11/23 13:30:41     42s] Saving tempus db preserve file ...
+[11/23 13:30:41     42s] Saving parasitic data in file 'ATM.dat/ATM.rcdb.d' ...
+[11/23 13:30:41     42s] Writing RC database file using in-memory parasitic updation done by ECO commands.
+[11/23 13:30:41     42s] Creating parasitic data file 'ATM.dat/ATM.rcdb.d' for storing RC.
+[11/23 13:30:41     42s] #% Begin Save AAE data ... (date=11/23 13:30:41, mem=1291.7M)
+[11/23 13:30:41     42s] Saving AAE Data ...
+[11/23 13:30:41     42s] AAE_INFO: Saving delay data on disk. 
+[11/23 13:30:41     42s] #% End Save AAE data ... (date=11/23 13:30:41, total cpu=0:00:00.0, real=0:00:00.0, peak res=1291.7M, current mem=1290.4M)
+[11/23 13:30:42     42s] Saving preference file ATM.dat/gui.pref.tcl ...
+[11/23 13:30:42     42s] Saving mode setting ...
+[11/23 13:30:42     43s] Saving global file ...
+[11/23 13:30:42     43s] #% Begin Save power constraints data ... (date=11/23 13:30:42, mem=1293.9M)
+[11/23 13:30:42     43s] #% End Save power constraints data ... (date=11/23 13:30:42, total cpu=0:00:00.0, real=0:00:00.0, peak res=1294.0M, current mem=1294.0M)
+[11/23 13:30:42     43s] **WARN: (UI-338):	Variable 'timing_enable_wire_load_model_support' is obsolete and has been replaced by 'enable_wire_load_model_support'. The obsolete variable still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use 'enable_wire_load_model_support'.
+[11/23 13:30:42     43s] **WARN: (UI-338):	Variable 'timing_enable_wire_load_model_support' is obsolete and has been replaced by 'enable_wire_load_model_support'. The obsolete variable still works in this release, but to avoid this warning and to ensure compatibility with future releases, update your script to use 'enable_wire_load_model_support'.
+[11/23 13:30:42     43s] Generated self-contained design ATM.dat
+[11/23 13:31:17     47s] <CMD> write_eco -format innovus -output hold-optimized.tcl
+[11/23 13:31:29     48s] 
+--------------------------------------------------------------------------------
+Exiting Tempus Timing Signoff Solution on Sat Nov 23 13:31:29 2024
+  Total CPU time:     0:00:50
+  Total real time:    0:05:39
+  Peak memory (main): 1303.67MB
+
+[11/23 13:31:29     48s] 
+[11/23 13:31:29     48s] *** Memory Usage v#1 (Current mem = 1576.914M, initial mem = 299.699M) ***
+[11/23 13:31:29     48s] 
+[11/23 13:31:29     48s] *** Summary of all messages that are not suppressed in this session:
+[11/23 13:31:29     48s] Severity  ID               Count  Summary                                  
+[11/23 13:31:29     48s] WARNING   IMPLF-151           41  The viaRule '%s' has been defined, the c...
+[11/23 13:31:29     48s] WARNING   IMPLF-155            9  ViaRule only supports routing/cut layer,...
+[11/23 13:31:29     48s] WARNING   IMPLF-58           487  MACRO '%s' has been found in the databas...
+[11/23 13:31:29     48s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[11/23 13:31:29     48s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[11/23 13:31:29     48s] ERROR     IMPLF-223          103  The LEF via '%s' definition already exis...
+[11/23 13:31:29     48s] WARNING   IMPLF-105            4  The layer '%s' specified in SAMENET spac...
+[11/23 13:31:29     48s] WARNING   IMPLF-119           27  LAYER '%s' has been found in the databas...
+[11/23 13:31:29     48s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[11/23 13:31:29     48s] WARNING   UI-156              83  preference name '%s' is not supported in...
+[11/23 13:31:29     48s] WARNING   UI-338               2  Variable '%s' is obsolete and has been r...
+[11/23 13:31:29     48s] WARNING   IMPSYC-3133          2  The unloadTimingCon command is not suppo...
+[11/23 13:31:29     48s] WARNING   IMPSYC-141           1  You have set -timerMode to %d so the set...
+[11/23 13:31:29     48s] WARNING   IMPSYC-6134          1  Setting analysis mode to %s does not hav...
+[11/23 13:31:29     48s] WARNING   IMPVL-159          958  Pin '%s' of cell '%s' is defined in LEF ...
+[11/23 13:31:29     48s] WARNING   IMPESI-3468          1  User needs to specify -equivalent_wavefo...
+[11/23 13:31:29     48s] WARNING   IMPOPT-6106          1  There is mismatch between RC data and ro...
+[11/23 13:31:29     48s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[11/23 13:31:29     48s] ERROR     IMPQTF-4005          3  Cannot find item '%s' in form '%s'.This ...
+[11/23 13:31:29     48s] WARNING   TCLCMD-1234          2  In multi-mode, multi-corner analysis mod...
+[11/23 13:31:29     48s] WARNING   TCLCMD-1263          1  The -frame parameter is obsolete and wil...
+[11/23 13:31:29     48s] *** Message Summary: 1627 warning(s), 106 error(s)
+[11/23 13:31:29     48s] 
+[11/23 13:31:29     48s] --- Ending "Tempus Timing Signoff Solution" (totcpu=0:00:48.6, real=0:05:30, mem=1576.9M) ---
